@@ -34,7 +34,7 @@ Running the benchmark on a corpus other than practice-based art papers (e.g., PL
 
 ## The "clean control" check
 
-A stricter version of the benchmark constructs the input pack from the artwork's **independent public footprint** (artist's external statements, festival pages, exhibition catalogs) rather than from the gold paper. This protects against the possibility that the input extraction itself carries authorial cues. The companion paper reports this on 3 cases (sa23-10, sa24-18, sa24-12); the directional signal survives but margins shrink, consistent with input-pack extraction contributing a non-zero artifact.
+A stricter version of the benchmark constructs the input pack from the artwork's **independent public footprint** (artist's external statements, festival pages, exhibition catalogs) rather than from the gold paper. This protects against the possibility that the input extraction itself carries authorial cues. The companion paper reports this on multiple cases from its evaluation corpus; the directional signal survives but margins shrink, consistent with input-pack extraction contributing a non-zero artifact.
 
 Clean control is bounded by what each case's independent footprint contains — most papers in the evaluation corpus (drawn from SIGGRAPH Asia) list a single exhibition venue, so the clean-control extension is corpus-bound rather than effort-bound.
 

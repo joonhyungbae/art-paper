@@ -34,7 +34,7 @@ Reconstruction benchmark는 플러그인의 동반 paper가 도입하는 평가 
 
 ## "Clean control" 검증
 
-Benchmark의 더 strict한 버전은 input pack을 작품의 **독립 공개 footprint** (작가의 외부 진술, festival 페이지, 전시 카탈로그)에서 구성, gold paper 아님. Input 추출 자체가 저자 cue 가능성을 보호. 동반 paper가 3 case (sa23-10, sa24-18, sa24-12)에서 보고; directional 신호 유지되나 margin 축소 — input-pack 추출이 non-zero artifact 기여한다는 것과 일관.
+Benchmark의 더 strict한 버전은 input pack을 작품의 **독립 공개 footprint** (작가의 외부 진술, festival 페이지, 전시 카탈로그)에서 구성, gold paper 아님. Input 추출 자체가 저자 cue 가능성을 보호. 동반 paper가 evaluation corpus의 여러 case에서 보고; directional 신호 유지되나 margin 축소 — input-pack 추출이 non-zero artifact 기여한다는 것과 일관.
 
 Clean control은 각 case의 독립 footprint이 무엇을 포함하는지에 bounded — 평가 corpus(SIGGRAPH Asia에서 추출) 내 대부분 paper가 단일 전시 venue를 listing → clean-control 확장은 effort-bound 아니라 corpus-bound.
 
