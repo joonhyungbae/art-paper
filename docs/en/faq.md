@@ -2,7 +2,7 @@
 
 ## Where does the name come from?
 
-The plugin is **Art-Paper**. It was forked from the upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) and specialised down to a single scope: practice-based art-paper authoring. (A local working directory may still carry a fork-period folder name, but the plugin and its repository are *art-paper*.)
+The plugin is **Art-Paper**. It was forked from the upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) and specialised down to a single scope: practice-based art-paper authoring.
 
 ## Why must I author the provocation? Can't the AI just write it?
 

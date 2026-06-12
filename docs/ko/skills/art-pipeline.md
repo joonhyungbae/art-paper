@@ -58,7 +58,6 @@ art-inquiry (socratic | full)
 ## 페어링
 
 - 4개 skill 전부 (이것이 오케스트레이터)
-- 선택: `ARS_CLAIM_AUDIT=1` 설정 시 `claim_ref_alignment_audit_agent` (Stage 4 → Stage 5 전환에서 claim-faithfulness audit)
 
 ## 주의
 

@@ -39,5 +39,3 @@
 1. **명시적 명확한 의도** → 지정된 skill 직접 실행
 2. **Cross-phase 자료, 명시 skill 없음** → 어떤 워크플로우인지 먼저 명확화 (애매한 채로 auto-routing 안 함)
 3. **자료도 없이 애매함** → 명확화
-
-자세한 사항은 `.claude/CLAUDE.md` § Routing Discipline 참조.

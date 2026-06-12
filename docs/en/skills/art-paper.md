@@ -12,7 +12,7 @@
 | `revision` | Revised draft from reviewer feedback | After `art-reviewer` |
 | `revision-coach` | Walks you through revision decisions | When you're not sure how to respond to a review |
 | `abstract-only` | Structured abstract | Late-stage polish |
-| `lit-review` | Section-2 literature review only | When the rest of the paper is done |
+| `lit-review` | Conceptual lineage / precedent-works section only | When the rest of the paper is done |
 | `format-convert` | acmart LaTeX → PDF | Final stage |
 | `citation-check` | Locator-anchor audit on every citation | Pre-submission integrity check |
 | `disclosure` | AI-usage two-channel disclosure | Required by SIGGRAPH Asia / ACM |
@@ -30,19 +30,17 @@
 
 ## Outputs (`full` mode)
 
-A `acmart`-class LaTeX manuscript with:
+A `acmart`-class LaTeX manuscript following the **Practice-Based Art Paper structure** (Pattern 1):
 
-- Title
-- Abstract (structured per venue)
-- Introduction (founding premise + scope statement + RQs + method summary)
-- Related Work
-- Methodology
-- The Work (factual description)
-- Evaluation (if applicable)
-- Discussion (including reflexive position)
-- Conclusion
-- References (ACM Reference Format by default, wired to acmart; alternate formats for non-ACM venues: APA 7.0, Chicago, MLA 9, IEEE, Vancouver)
-- AI-usage disclosure (two-channel)
+- **Title + Abstract** (120–200 words) + Keywords (4–6)
+- **Introduction / Context** — the work in brief; artistic and conceptual context; the provocation the work pursues; contribution statement
+- **Conceptual Framework** — theoretical and philosophical grounding; relation to precedent artworks and artists; key concepts
+- **The Work** — form, materials, media, scale, duration; the audience experience; authorship and collaboration credit
+- **Realization / Methods of Making** — technical approach (systems, algorithms, fabrication); process and iteration; tools and dependencies
+- **Reflection / Discussion** — what the making revealed (situated insight); exhibition and reception; relation to the conceptual framework; limitations and open questions
+- **Conclusion / Future Work**
+- **References** (ACM Reference Format by default, wired to acmart; alternate formats for non-ACM venues: APA 7.0, Chicago, MLA 9, IEEE, Vancouver)
+- **Acknowledgements + AI-usage disclosure** (two-channel) **+ image credits**
 
 ## Iron rules the skill enforces
 

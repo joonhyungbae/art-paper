@@ -12,7 +12,7 @@
 | `revision` | 리뷰어 feedback으로 수정한 draft | `art-reviewer` 다음 |
 | `revision-coach` | 수정 결정을 가이드 | 리뷰에 어떻게 응답할지 모를 때 |
 | `abstract-only` | 구조화된 초록 | 후반 polish |
-| `lit-review` | Section-2 문헌 리뷰만 | 나머지가 다 됐을 때 |
+| `lit-review` | 개념 계보 / 선행 작품 섹션만 | 나머지가 다 됐을 때 |
 | `format-convert` | acmart LaTeX → PDF | 최종 단계 |
 | `citation-check` | 모든 인용의 locator-anchor audit | 제출 전 integrity check |
 | `disclosure` | AI-usage 2-channel 공개 | SIGGRAPH Asia / ACM 요구사항 |
@@ -30,19 +30,17 @@
 
 ## 출력 (`full` 모드)
 
-`acmart`-class LaTeX manuscript with:
+**Practice-Based Art Paper 구조** (Pattern 1)를 따르는 `acmart`-class LaTeX manuscript:
 
-- 제목
-- 초록 (venue별 구조화)
-- 서론 (founding premise + scope statement + RQs + method summary)
-- Related Work
-- Methodology
-- The Work (사실 기술)
-- Evaluation (해당 시)
-- Discussion (reflexive position 포함)
-- Conclusion
-- References (기본 ACM Reference Format, acmart 연동; 비-ACM venue용 대체 포맷: APA 7.0, Chicago, MLA 9, IEEE, Vancouver)
-- AI-usage disclosure (2-channel)
+- **제목 + 초록** (120–200단어) + 키워드 (4–6개)
+- **Introduction / Context** — 작품 개요; 예술적·개념적 맥락; 작품이 추구하는 provocation; 기여 진술
+- **Conceptual Framework** — 이론적·철학적 grounding; 선행 작품 및 작가와의 관계; 핵심 개념
+- **The Work** — 형태, 재료, 미디어, 규모, 지속시간; 관객 경험; 저자권 및 협업 크레딧
+- **Realization / Methods of Making** — 기술적 접근 (시스템, 알고리즘, 제작); 프로세스와 반복; 도구와 의존성
+- **Reflection / Discussion** — 만들면서 발견한 것 (situated insight); 전시 및 수용; 개념 framework와의 관계; 한계와 열린 질문
+- **Conclusion / Future Work**
+- **References** (기본 ACM Reference Format, acmart 연동; 비-ACM venue용 대체 포맷: APA 7.0, Chicago, MLA 9, IEEE, Vancouver)
+- **Acknowledgements + AI-usage disclosure** (2-channel) **+ 이미지 크레딧**
 
 ## Skill이 강제하는 IRON RULE
 

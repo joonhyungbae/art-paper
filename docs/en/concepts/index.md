@@ -2,7 +2,7 @@
 
 The plugin's design rests on three concepts that explain why it is shaped the way it is. Each concept has its own page.
 
-Several of these pages cite *the companion paper* — the methodology study that introduced and validated this evaluation approach — as the source of their reported figures and reproducibility materials.
+Several of these pages cite *the companion methodology paper* — the study that introduced and validated the reconstruction-benchmark evaluation approach — as the source of their reported figures and reproducibility materials. The instrumentation script and pilot data are available at `eval/` in the plugin repository; the paper itself is in preparation.
 
 | Concept | What it means | Where in the plugin |
 |---|---|---|

@@ -2,7 +2,7 @@
 
 ## 이름은 어디서 왔나?
 
-이 플러그인은 **Art-Paper** 입니다. upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) 에서 fork되어 실천 기반 예술 논문 작성이라는 하나의 scope으로 특화됐습니다. (로컬 작업 디렉토리에는 fork 시기의 폴더명이 남아 있을 수 있으나, 플러그인과 저장소는 *art-paper* 입니다.)
+이 플러그인은 **Art-Paper** 입니다. upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) 에서 fork되어 실천 기반 예술 논문 작성이라는 하나의 scope으로 특화됐습니다.
 
 ## Provocation은 왜 작가가 작성해야 하나? AI가 그냥 쓰면 안 되나?
 
@@ -10,9 +10,9 @@
 
 ## 이 플러그인이 예술 논문 외 다른 장르에도 작동하나?
 
-실천 기반 예술 논문 작성에 bounded. Skill의 프롬프트, reference, integrity check가 이 scope에 tuned. 다른 장르에서 출력 produce 가능하나, 플러그인 설계에 의해 warranted되지 않음 — 종속변수 (documentable/generative split)가 실천 기반 연구 밖에서 이론적 grounding 상실.
+이 플러그인은 실천 기반 예술 논문 작성에 한정됩니다. 스킬의 프롬프트, 참조 문서, integrity 점검 모두 이 scope에 맞게 조정되어 있습니다. 다른 장르에서 출력을 생성할 수는 있지만, 그 결과는 플러그인 설계에 의해 보증되지 않습니다 — 핵심 개념인 documentable/generative 구분이 실천 기반 연구 밖에서는 이론적 근거를 잃기 때문입니다.
 
-일반 학술 글쓰기 플러그인 원하면 upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills)가 더 가까움.
+범용 학술 글쓰기 플러그인이 필요하다면 upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills)가 더 적합합니다.
 
 ## 플러그인 인용 방법?
 
@@ -35,7 +35,7 @@
 
 ## 플러그인이 내 데이터로 모델 학습시키나?
 
-플러그인은 Anthropic Claude API 위에서 동작. 사용자 입력/출력이 학습에 사용되는지는 Anthropic API 계약과 계정 설정에 따름. 플러그인 자체는 Claude Code 클라이언트의 정상 작동 외에 사용자 입력을 기록/보관/전송하지 않음.
+이 플러그인은 Anthropic Claude API 위에서 동작합니다. 사용자 입력과 출력이 모델 학습에 사용되는지는 Anthropic API 계약과 계정 설정에 따릅니다. 플러그인 자체는 Claude Code 클라이언트의 정상 작동 범위 이외에 사용자 입력을 기록하거나 보관·전송하지 않습니다.
 
 ## 버그 신고나 기능 요청은?
 
@@ -43,4 +43,4 @@
 
 ## 라이선스?
 
-플러그인은 **CC-BY-NC 4.0** 라이선스. Attribution 하에 비상업적 목적으로 공유와 adapt 가능. 상업적 사용은 별도 허가 필요.
+이 플러그인은 **CC-BY-NC 4.0** 라이선스입니다. Attribution 조건 하에 비상업적 목적으로 공유 및 수정이 가능합니다. 상업적 사용은 별도 허가가 필요합니다.

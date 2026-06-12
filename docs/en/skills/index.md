@@ -39,5 +39,3 @@ If the user explicitly types a `/art-*` slash command, that takes priority. Othe
 1. **Explicit clear intent** → run named skill directly
 2. **Cross-phase materials, no named skill** → clarify which workflow first (no auto-routing past ambiguity)
 3. **Ambiguous, no materials** → clarify
-
-This is documented in detail in `.claude/CLAUDE.md` § Routing Discipline.

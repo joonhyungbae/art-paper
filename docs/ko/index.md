@@ -1,6 +1,8 @@
 # Art-Paper
 
-**실천 기반 예술 연구 논문**을 위한 [Claude Code](https://www.anthropic.com/claude-code) 플러그인 모음입니다. 스코프는 특정 venue가 아니라 이 *장르*입니다 — 방법론과 무결성 점검은 venue 중립적입니다. 기본 reference target은 SIGGRAPH Asia Art Papers track의 관례(acmart, ACM Reference Format)이며, 그 출력은 acmart LaTeX를 받는 다른 venue에도 minor option 변경으로 적용됩니다.
+**실천 기반 예술 연구 논문**을 위한 [Claude Code](https://www.anthropic.com/claude-code) 플러그인 모음입니다. 작품을 만들었고 그에 대한 학술 논문을 써야 한다면 — SIGGRAPH Asia Art Papers나 유사 venue를 대상으로 — 이 플러그인이 Claude Code에 그 작업을 도울 수 있는 skill을 추가합니다.
+
+스코프는 특정 venue가 아니라 이 *장르*입니다 — 방법론과 무결성 점검은 venue 중립적입니다. 기본 reference target은 SIGGRAPH Asia Art Papers track의 관례(acmart, ACM Reference Format)이며, 그 출력은 acmart LaTeX를 받는 다른 venue에도 minor option 변경으로 적용됩니다.
 
 ## 이 플러그인이 하는 일
 
@@ -15,9 +17,9 @@
 
 ## 왜 예술 논문 전용 플러그인인가
 
-실천 기반 예술 연구의 핵심 주장: 작가는 **만드는 동안 형성되는 앎**을 가지고 있고, 문서만으로는 그것이 온전히 전달되지 않는다 (Schön, Polanyi, Borgdorff, Candy). 범용 AI 글쓰기 도구는 문서로부터 일관된 논문을 만들어내지만, 그것이 advance하는 reading은 작가가 생성적 층(generative layer)에서 advance하는 reading과 다릅니다 — 문제 의식, 성찰, 상황적 해석에서.
+작품을 문서화해서 범용 AI 글쓰기 도구에 넘기면 일관된 논문이 만들어지지만 — 그 논문이 advance하는 reading은 AI의 reading이지 작가의 것이 아닙니다. 만드는 행위에서 나온 문제 의식, 성찰, 상황적 해석은 작가에게서 와야 합니다. 그것을 documentable 사실과 구분하지 못하는 도구는 작가의 reading 대신 자기 것을 채워 넣습니다.
 
-이 플러그인은 그 gap을 위해 설계되었습니다. 각 skill은 **저자를 돕지만 저자를 대체하지 않도록** bounded되어 있습니다.
+이 플러그인은 그 gap을 위해 설계되었습니다. 각 skill은 **작가의 저자 작업을 돕되 저자권을 주장하지 않도록** bounded되어 있습니다. 이론적 근거 (Schön, Polanyi, Borgdorff, Candy)는 [개념 → 실천 기반 연구](concepts/practice-based-research.md)에서 확인할 수 있습니다.
 
 ## 빠른 시작
 

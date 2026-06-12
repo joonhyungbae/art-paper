@@ -58,7 +58,6 @@ A topic seed and (optionally) any pre-existing materials. The pipeline detects w
 ## Pairs with
 
 - All four skills (this is the orchestrator)
-- Optional: `claim_ref_alignment_audit_agent` if `ARS_CLAIM_AUDIT=1` is set (claim-faithfulness audit at Stage 4 → Stage 5 transition)
 
 ## Caveats
 
