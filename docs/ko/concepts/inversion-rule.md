@@ -24,7 +24,7 @@ Contamination probe는 8-gram containment metric 계산 — 재구성에서 gold
 | `[0.03, 0.10)` | `elevated` | **조사** — 내용 보존 paraphrase 또는 공유 boilerplate |
 | `>= 0.10` | `high-warning` | Memorisation flag — inversion rule이 성공으로 읽기 거부 |
 
-동반 paper가 보고: N=38 실천 기반 예술 paper에서 0.10 임계값 넘긴 case 0; F1 의도적 firewall 위반 case (provocation을 input에 주입)에서 probe가 0.0431 (`elevated`)로 상승, 설계대로.
+동반 paper가 보고: evaluation corpus의 여러 실천 기반 예술 paper에서 0.10 임계값 넘긴 case 0; F1 의도적 firewall 위반 case (provocation을 input에 주입)에서 probe가 elevated 대역으로 상승 (0.03 elevated와 0.10 high-warning 사이), 설계대로.
 
 ## 규칙이 **하지 않는** 것
 

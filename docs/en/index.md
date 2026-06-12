@@ -25,9 +25,9 @@ See [Getting started](getting-started.md) for installation and your first run. F
 
 ## Status
 
-- **Suite version**: 0.1.0 (forked from `academic-research-skills` v3.9.4.2)
+- **Suite version**: 0.1.1 (forked from `academic-research-skills` v3.9.4.2)
 - **License**: CC-BY-NC 4.0
-- **Last updated**: 2026-06-12
+- **Last updated**: 2026-06-13
 
 ## What this plugin does NOT do
 

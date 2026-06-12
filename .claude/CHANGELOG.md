@@ -8,7 +8,7 @@ Cross-skill fixes and update history.
 
 ### Information Systems — Basket of 8 → Senior Scholars' Basket of 11 (v3.1.1)
 
-External contribution from [@cloudenochcsis](https://github.com/cloudenochcsis) via [PR #8](https://github.com/Imbad0202/art-paper/pull/8).
+External contribution from [@cloudenochcsis](https://github.com/cloudenochcsis) via [PR #8](https://github.com/joonhyungbae/art-paper/pull/8).
 
 **Files changed**: 1 file, +20 / −2 lines
 

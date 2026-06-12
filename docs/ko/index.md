@@ -25,9 +25,9 @@
 
 ## 상태
 
-- **Suite 버전**: 0.1.0 (`academic-research-skills` v3.9.4.2에서 fork)
+- **Suite 버전**: 0.1.1 (`academic-research-skills` v3.9.4.2에서 fork)
 - **라이선스**: CC-BY-NC 4.0
-- **최종 업데이트**: 2026-06-12
+- **최종 업데이트**: 2026-06-13
 
 ## 이 플러그인이 하지 **않는** 일
 

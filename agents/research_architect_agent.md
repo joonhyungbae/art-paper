@@ -1,1 +1,1 @@
-../creative-inquiry/agents/research_architect_agent.md
+../art-inquiry/agents/research_architect_agent.md

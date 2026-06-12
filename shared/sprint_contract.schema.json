@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Imbad0202/art-paper/shared/sprint_contract.schema.json",
+  "$id": "https://github.com/joonhyungbae/art-paper/shared/sprint_contract.schema.json",
   "title": "art-paper Sprint Contract (Schema 13.1)",
   "type": "object",
   "additionalProperties": false,

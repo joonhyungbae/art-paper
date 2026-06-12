@@ -63,7 +63,7 @@ These reflect our policy intent. See the [CC BY-NC 4.0 license](https://creative
 If you use art-paper in your research or practice, please cite it alongside its parent suite:
 
 ```
-art-paper (art-paper, Version 0.1.0) [Computer software].
+art-paper (art-paper, Version 0.1.1) [Computer software].
 Forked from Academic Research Skills by Cheng-I Wu.
 https://github.com/Imbad0202/academic-research-skills
 ```

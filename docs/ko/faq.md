@@ -2,7 +2,7 @@
 
 ## 이름은 어디서 왔나?
 
-이 플러그인은 **Art-Paper** 입니다. upstream [`academic-research-skills`](https://github.com/jhb-acel/academic-research-skills) 에서 fork되어 실천 기반 예술 논문 작성이라는 하나의 scope으로 특화됐습니다. (로컬 작업 디렉토리에는 fork 시기의 폴더명이 남아 있을 수 있으나, 플러그인과 저장소는 *art-paper* 입니다.)
+이 플러그인은 **Art-Paper** 입니다. upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) 에서 fork되어 실천 기반 예술 논문 작성이라는 하나의 scope으로 특화됐습니다. (로컬 작업 디렉토리에는 fork 시기의 폴더명이 남아 있을 수 있으나, 플러그인과 저장소는 *art-paper* 입니다.)
 
 ## Provocation은 왜 작가가 작성해야 하나? AI가 그냥 쓰면 안 되나?
 
@@ -12,7 +12,7 @@
 
 실천 기반 예술 논문 작성에 bounded. Skill의 프롬프트, reference, integrity check가 이 scope에 tuned. 다른 장르에서 출력 produce 가능하나, 플러그인 설계에 의해 warranted되지 않음 — 종속변수 (documentable/generative split)가 실천 기반 연구 밖에서 이론적 grounding 상실.
 
-일반 학술 글쓰기 플러그인 원하면 upstream [`academic-research-skills`](https://github.com/jhb-acel/academic-research-skills)가 더 가까움.
+일반 학술 글쓰기 플러그인 원하면 upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills)가 더 가까움.
 
 ## 플러그인 인용 방법?
 
@@ -23,7 +23,7 @@
   author       = {[익명 리뷰 위해 redacted]},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
-  version      = {0.1.0},
+  version      = {0.1.1},
   url          = {https://github.com/joonhyungbae/art-paper},
   note         = {CC-BY-NC 4.0}
 }

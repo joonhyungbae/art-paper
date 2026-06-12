@@ -4,7 +4,7 @@ Single source of truth for all modes across the art-paper suite. **27 modes** ac
 
 art-paper is forked from academic-research-skills (ARS) v3.9.4.2 and re-specialized for practice-based art research papers across art-and-technology venues (default reference target: SIGGRAPH Asia Art Papers track). When adding or modifying modes, update this file first — SKILL.md files and CLAUDE.md should reference this registry.
 
-Last updated: v0.1.0 (2026-05-22)
+Last updated: v0.1.1 (2026-06-13)
 
 ---
 

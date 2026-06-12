@@ -2,7 +2,7 @@
 
 ## Where does the name come from?
 
-The plugin is **Art-Paper**. It was forked from the upstream [`academic-research-skills`](https://github.com/jhb-acel/academic-research-skills) and specialised down to a single scope: practice-based art-paper authoring. (A local working directory may still carry a fork-period folder name, but the plugin and its repository are *art-paper*.)
+The plugin is **Art-Paper**. It was forked from the upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) and specialised down to a single scope: practice-based art-paper authoring. (A local working directory may still carry a fork-period folder name, but the plugin and its repository are *art-paper*.)
 
 ## Why must I author the provocation? Can't the AI just write it?
 
@@ -12,7 +12,7 @@ The plugin can generate a provocation from the documented facts — and it will,
 
 It is bounded to practice-based art-paper authoring. The skills' prompts, references, and integrity checks are tuned for this scope. They may produce output for other genres, but the produced output is no longer warranted by the plugin's design — the dependent variable (documentable/generative split) loses its theoretical grounding outside practice-based research.
 
-If you want a general scholarly-writing plugin, the upstream [`academic-research-skills`](https://github.com/jhb-acel/academic-research-skills) is closer.
+If you want a general scholarly-writing plugin, the upstream [`academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) is closer.
 
 ## How do I cite the plugin?
 
@@ -23,7 +23,7 @@ Cite the plugin as a software release:
   author       = {[Author redacted for anonymous review]},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
-  version      = {0.1.0},
+  version      = {0.1.1},
   url          = {https://github.com/joonhyungbae/art-paper},
   note         = {CC-BY-NC 4.0}
 }

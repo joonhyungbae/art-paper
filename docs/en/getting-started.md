@@ -11,12 +11,23 @@
 
 ## Install
 
+**Recommended — Claude Code plugin marketplace:**
+
+```text
+/plugin marketplace add joonhyungbae/art-paper
+/plugin install art-paper
+```
+
+Open Claude Code and verify the skills appear with `/art-` slash command completion.
+
+**Alternative — manual clone (for hacking on the plugin itself):**
+
 ```bash
 git clone https://github.com/joonhyungbae/art-paper.git
 cd art-paper
 ```
 
-Then add the directory as a Claude Code plugin path. Open Claude Code and verify the skills appear with `/art-` slash command completion.
+Then register the directory as a Claude Code plugin path per `docs/SETUP.md`.
 
 ## Your first run — three possible entry points
 

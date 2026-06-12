@@ -1,1 +1,1 @@
-../creative-inquiry/agents/report_compiler_agent.md
+../art-inquiry/agents/report_compiler_agent.md

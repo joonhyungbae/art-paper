@@ -1,1 +1,1 @@
-../creative-inquiry/agents/synthesis_agent.md
+../art-inquiry/agents/synthesis_agent.md

@@ -11,12 +11,23 @@
 
 ## 설치
 
+**권장 — Claude Code 플러그인 마켓플레이스:**
+
+```text
+/plugin marketplace add joonhyungbae/art-paper
+/plugin install art-paper
+```
+
+Claude Code를 열어 `/art-` slash command 자동완성으로 skill이 표시되는지 확인.
+
+**대안 — 수동 clone (플러그인 자체를 해킹할 때):**
+
 ```bash
 git clone https://github.com/joonhyungbae/art-paper.git
 cd art-paper
 ```
 
-해당 디렉토리를 Claude Code 플러그인 경로로 등록합니다. Claude Code를 열어 `/art-` slash command 자동완성으로 skill이 표시되는지 확인.
+`docs/SETUP.md`에 따라 디렉토리를 Claude Code 플러그인 경로로 등록.
 
 ## 첫 실행 — 세 가지 진입점
 

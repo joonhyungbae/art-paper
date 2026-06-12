@@ -24,7 +24,7 @@ The contamination probe computes an 8-gram containment metric — the fraction o
 | `[0.03, 0.10)` | `elevated` | **Investigate** — content-preserving paraphrase or shared boilerplate |
 | `>= 0.10` | `high-warning` | Memorisation flag — the inversion rule refuses to read the result as success |
 
-The companion paper reports that for N=38 practice-based art papers, no case crossed the 0.10 threshold; for the F1 deliberate firewall-violation case (provocation injected into input), the probe rose to 0.0431 (`elevated`) as designed.
+The companion paper reports that for multiple practice-based art papers in the evaluation corpus, no case crossed the 0.10 threshold; for the F1 deliberate firewall-violation case (provocation injected into input), the probe rose into the elevated band (between the 0.03 elevated and 0.10 high-warning thresholds) as designed.
 
 ## What the rule does NOT do
 

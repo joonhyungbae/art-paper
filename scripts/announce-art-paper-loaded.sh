@@ -44,7 +44,7 @@ case "${SOURCE}" in
   startup|clear|*)
     ANNOUNCE="art-paper (art-paper) plugin loaded — practice-based art papers for the SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify against the current CFP).
 
-Slash commands (13) — model routing pinned in frontmatter:
+Slash commands (15) — model routing pinned in frontmatter:
   /art-full              opus    Full art-paper pipeline (inquiry → write → jury review → revise → finalize)
   /art-revision-coach    opus    Parse jury comments → Revision Roadmap + Response Letter skeleton
   /art-reviewer          opus    art-reviewer full mode — simulated SIGGRAPH Asia Art Papers jury

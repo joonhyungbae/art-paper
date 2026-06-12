@@ -8,10 +8,10 @@ A suite of Claude Code skills for **practice-based art research papers** across 
 
 | Skill | Purpose | Key Modes |
 |-------|---------|-----------|
-| `art-inquiry` v0.1.0 | Upstream practice-based art-research engine | full, quick, review, lit-review, fact-check, socratic, systematic-review |
-| `art-paper` v0.1.0 | Art-paper authoring engine | full, plan, outline-only, revision, revision-coach, abstract-only, lit-review, format-convert, citation-check, disclosure, **artist-statement**, **work-doc** |
-| `art-reviewer` v0.1.0 | SIGGRAPH Asia Art Papers jury (Chair + curator + practitioner-researcher + art-science critic + Devil's Advocate) | full, re-review, quick, realization-focus, guided, calibration |
-| `art-pipeline` v0.1.0 | Full art-paper pipeline orchestrator | (coordinates all above) |
+| `art-inquiry` v0.1.1 | Upstream practice-based art-research engine | full, quick, review, lit-review, fact-check, socratic, systematic-review |
+| `art-paper` v0.1.1 | Art-paper authoring engine | full, plan, outline-only, revision, revision-coach, abstract-only, lit-review, format-convert, citation-check, disclosure, **artist-statement**, **work-doc** |
+| `art-reviewer` v0.1.1 | SIGGRAPH Asia Art Papers jury (Chair + curator + practitioner-researcher + art-science critic + Devil's Advocate) | full, re-review, quick, realization-focus, guided, calibration |
+| `art-pipeline` v0.1.1 | Full art-paper pipeline orchestrator | (coordinates all above) |
 
 ## Genre Layer (what makes this an art-paper suite)
 
