@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 > **Provenance note.** This project is **art-paper**, forked from **academic-research-skills (ARS)** v3.9.4.2. Only art-paper-specific entries are kept here. The full parent-suite changelog (ARS v1.0 → v3.9.4.2) is preserved verbatim at [`ref/academic-research-skills/CHANGELOG.md`](ref/academic-research-skills/CHANGELOG.md) and is not re-narrated here.
 
-## [0.1.1] - 2026-05-30 — install/manifest hardening, naming, Cutting Kim worked example
+## [0.1.1] - 2026-06-13 — install/manifest hardening, naming, Cutting Kim worked example
 
 **Doubt-resolution pass (post-release).** A user-driven "does it actually work" audit surfaced four remaining doubts; all four resolved.
 
@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file.
 - **`art-paper/references/` orphan claim (audit false positive)**: The narrow search that flagged 8 orphans was scoped to `art-paper/SKILL.md` + `art-paper/agents/*.md` only. Wider sweep (including cross-skill agents, `shared/handoff_schemas.md`, `shared/policy_data/*.md`) shows 0 true orphans. Every reference file is reachable from some agent or schema.
 - **`shared/references/` orphan claim (audit false positive)**: Same scope issue. `irb_terminology_glossary`, `protected_hedging_phrases`, `psychometric_terminology_glossary`, `word_count_conventions` are each referenced from at least one SKILL.md or agent file.
 - **Stale `creative-research-skills` path in tracked config**: 23 `pdf_path` entries in `corpus_expansion/selected_corpus/cases_manifest.json` carried the pre-rename absolute path. Replaced with `/home/jhbae/art-paper/...`. PDF presence on the local filesystem unchanged (23 of 34 already on disk; the unresolved ones are an upstream corpus-acquisition matter, not a path bug).
-- **`.claude/CLAUDE.md` version field**: bumped to v0.1.1, last-updated 2026-05-30.
+- **`.claude/CLAUDE.md` version field**: bumped to v0.1.1, last-updated 2026-06-13.
 
 New regression guard: `tests/test_art_paper_wiki_regression.py::test_no_fork_period_path_in_tracked_files` walks `git ls-files` and asserts no tracked file embeds `creative-research-skills/` as a filesystem path. `art-paper_paper/` (nested separate repo) and gitignored `.claude/settings.local.json` are excluded naturally because they are not tracked in this repo. Test suite total: 11 art-paper-specific tests, all passing.
 

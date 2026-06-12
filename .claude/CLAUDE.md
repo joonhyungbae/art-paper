@@ -75,5 +75,5 @@ art-inquiry (socratic/full)
 
 ## Version Info
 - **Suite version**: 0.1.1 (forked from ARS v3.9.4.2)
-- **Last Updated**: 2026-05-30
+- **Last Updated**: 2026-06-13
 - **License**: CC-BY-NC 4.0

@@ -21,7 +21,9 @@ The artwork is **primary evidence**, not data. art-paper scaffolds the parts AI 
 
 Then try `/art-plan` and describe your work — art-paper will walk you through the structure (context → conceptual framework → the work → realization → reflection) via Socratic dialogue. For a single-shot test instead, `/art-lit-review "your topic"`.
 
-**👉 [docs/SETUP.md](docs/SETUP.md)** — prerequisites (Claude Code, `ANTHROPIC_API_KEY`, optional Pandoc / LaTeX `tectonic` + ACM `acmart` for canonical PDF), API key, optional cross-model verification (`CRS_CROSS_MODEL`), and all install methods.
+**👉 [Wiki — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/art-paper/)** — bilingual user docs (EN + 한국어): getting started, three entry points, the four skills, the methodology concepts, and the *Cutting Kim* worked example end-to-end.
+
+**👉 [docs/SETUP.md](docs/SETUP.md)** — prerequisites (Claude Code, `ANTHROPIC_API_KEY`, optional Pandoc / LaTeX `tectonic` + ACM `acmart` for canonical PDF), API key, optional cross-model verification (`CRS_CROSS_MODEL` — inherited env-var name from the parent suite), and all install methods.
 
 ---
 
@@ -64,7 +66,7 @@ Full 7-mode AI failure-mode checklist: [`art-pipeline/references/ai_research_fai
 
 ### Citation faithfulness
 
-art-paper retains the L3 citation-faithfulness machinery: trust-chain provenance + locator anchors per citation, with an opt-in audit pass (`CRS_CLAIM_AUDIT=1`) that fetches each cited source and judges whether the claim is actually supported. Five HIGH-WARN classes gate-refuse output through the formatter (claim-not-supported, negative-constraint-violation, fabricated-reference, anchorless, constraint-violation-uncited).
+art-paper retains the L3 citation-faithfulness machinery: trust-chain provenance + locator anchors per citation, with an opt-in audit pass (`CRS_CLAIM_AUDIT=1` — env-var name inherited from the parent suite) that fetches each cited source and judges whether the claim is actually supported. Five HIGH-WARN classes gate-refuse output through the formatter (claim-not-supported, negative-constraint-violation, fabricated-reference, anchorless, constraint-violation-uncited).
 
 For art papers, the *rendered* citation format is ACM Reference Format; artwork and exhibition citations use **venue+date** as the locator, not DOIs (which would be fabricated for unindexed work).
 
@@ -170,19 +172,19 @@ The artwork is primary evidence; structures center on the work rather than IMRaD
 
 Per-agent responsibilities and per-stage artifacts: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
-### art-inquiry (v0.1)
+### art-inquiry (v0.1.1)
 
 Concept articulation, positioning, practice-based / practice-led methodology, lineage of precedent works and theory. Modes: full, quick, review, lit-review, fact-check, socratic, systematic-review. Optional cross-model Devil's Advocate; Semantic Scholar API verification (for theory / precedent literature).
 
-### art-paper (v0.1)
+### art-paper (v0.1.1)
 
 Art-paper authoring. Output: **acmart LaTeX → PDF** (canonical; default class option `sigconf`, verify against the current Art Papers CFP) + MD + DOCX (via Pandoc when available). **IRON RULE:** PDF compiled from LaTeX, never HTML-to-PDF. Modes: full, plan, outline-only, revision, revision-coach, abstract-only, lit-review, format-convert, citation-check, disclosure, **artist-statement**, **work-doc**. Style Calibration, Writing Quality Check, anti-leakage protocol, VLM figure verification for documentation images.
 
-### art-reviewer (v0.1)
+### art-reviewer (v0.1.1)
 
 Multi-perspective jury review with **0–100 quality rubrics**. The jury simulates the SIGGRAPH Asia Art Papers panel: **Chair + curator + practitioner-researcher + art-science critic + Devil's Advocate**. Modes: full, re-review, quick, realization-focus, guided, calibration. Decision mapping: ≥80 Accept, 65–79 Minor Revision, 50–64 Major Revision, <50 Reject — the final acceptance is the venue's; verify against the current CFP. Read-only constraint; concession-threshold + attack-intensity preservation; optional cross-model DA critique.
 
-### art-pipeline (v0.1)
+### art-pipeline (v0.1.1)
 
 10-stage orchestrator. Every stage requires a user-confirmation checkpoint; integrity verification (Stage 2.5 + 4.5, scoped to **artwork / realization claim verification**) cannot be skipped; the Revision Traceability Matrix (Schema 11) independently verifies revision claims. The **Collaboration Depth Observer** (advisory only — never blocks) runs at FULL/SLIM checkpoints and pipeline completion. Compliance Agent (PRISMA-trAIce + RAISE) runs at the integrity gates.
 
@@ -220,6 +222,18 @@ https://github.com/Imbad0202/academic-research-skills
 ## Changelog
 
 > Entries below v0.1.0 are the inherited **academic-research-skills (ARS)** changelog, retained as provenance. They describe the parent suite's history prior to the art-paper fork.
+
+### v0.1.1 (2026-06-13) — install hardening, naming, *Cutting Kim* worked example
+
+> Initial public release. Pre-release history collapsed to a single starting commit; the per-version detail below is preserved in [`CHANGELOG.md`](CHANGELOG.md) and continues from the upstream provenance in `ref/academic-research-skills/CHANGELOG.md`.
+
+- **Install defect fix.** `skills/` symlinks repointed from the broken fork-period `creative-*` names to `../art-{inquiry,paper,pipeline,reviewer}`; a fresh clone now registers all four core skills via the conventional `skills/` discovery path.
+- **Manifest accuracy.** `marketplace.json` description aligned to the actual count (27 mode entries: art-inquiry 7, art-paper 12, art-reviewer 6, art-pipeline orchestrator + cross-session resume = 2). `MODE_REGISTRY.md` "creative pipeline" trigger leftover replaced with "art pipeline".
+- **Citation-format wiring.** Custom post-`bibtex` passes (in the `art-paper_paper` working tree, applicable elsewhere too) ensure Emerald Harvard's `pp.X-Y` full-form page ranges, italic `et al.`, and DOI URLs render correctly when `agsm.bst` drops the `doi` field.
+- **Suite name normalisation.** Removed the fork-period label "Creative Research Skills" everywhere user-facing (wiki, `mkdocs` site title, FAQ, citation BibTeX, skeleton example). The plugin's name is **Art-Paper**.
+- **Korean wording.** Replaced the literal upstream/downstream calque "상류/하류" with "선행/후속" in the Korean wiki.
+- ***Cutting Kim* worked example.** Added a featured reconstruction-benchmark walkthrough on the authors' own SIGGRAPH Asia 2025 art paper (T = 0.2568 / G = 0.1261, margin +0.13, contamination 0.003 `ok`). Standard + clean-control variants both included; the clean-control collapses the margin to −0.019, an honest signature of the input-pack-extraction artifact size.
+- **Sanity test suite.** 11 stdlib-only regression guards in `tests/` covering skills/ symlink resolution, manifest version sync, marketplace mode-count claim, "Creative Research Skills" / "Emerald Harvard" / fork-period-path wiki regressions, and a smoke test of `eval/instrumentation.py` on the bundled synthetic fixture.
 
 ### v0.1.0 (2026-05-22) — art-paper fork (art-paper specialization)
 

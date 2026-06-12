@@ -18,6 +18,8 @@
 
 설치 후 `/art-plan`으로 소크라테스식 대화를 통해 논문 구조를 잡아보거나, 아래 [빠른 설치](#빠른-설치)에서 사전 요건과 전통적 symlink 방식을 확인하세요.
 
+**👉 [위키 — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/art-paper/)** — 이중 언어(EN + 한국어) 사용자 문서: 시작하기, 세 가지 진입점, 네 개 스킬, 방법론 개념, *Cutting Kim* worked example 전체 walkthrough.
+
 > **AI는 부조종사이지 조종사가 아닙니다.** 이 도구는 논문을 대신 써주지 않습니다. 스캐폴딩 — 선행 작품·이론 정리, ACM 인용 포맷팅, 작품·구현 주장이 관찰 가능한 증거에 닻 내려 있는지 점검, 장르 관례 준수 — 을 처리해, 정작 예술가-연구자가 해야 할 일(프로보케이션 설정, 작품 제작, 실천이 무엇을 드러내는지 판단, "이 작업은 ~을 주장한다" 다음 문장 쓰기)에 집중하도록 돕습니다.
 >
 > 작품을 *만드는 데* 쓴 AI와 논문을 *쓰는 데* 쓴 AI는 venue 정책에 따라 **두 채널로 분리 공시**됩니다.
@@ -88,10 +90,10 @@ art-inquiry (socratic/full)        # 창작 탐구: 개념·프로보케이션, 
 
 | 스킬 | 역할 |
 |---|---|
-| **art-inquiry** v0.1 | 상위 실천 기반 예술 연구 엔진 (개념 정리, 포지셔닝, 실천 기반 방법론, 선행작·이론) |
-| **art-paper** v0.1 | 아트페이퍼 집필 엔진 (구조, 초안, ACM 인용, acmart 출력) |
-| **art-reviewer** v0.1 | SIGGRAPH Asia Art Papers 심사단 (의장+큐레이터+실기연구자+art-science 비평가+DA) |
-| **art-pipeline** v0.1 | 10단계 파이프라인 오케스트레이터 (상태기계 그대로 상속) |
+| **art-inquiry** v0.1.1 | 실천 기반 예술 연구의 선행 엔진 (개념 정리, 포지셔닝, 실천 기반 방법론, 선행작·이론) |
+| **art-paper** v0.1.1 | 아트페이퍼 집필 엔진 (구조, 초안, ACM 인용, acmart 출력) |
+| **art-reviewer** v0.1.1 | SIGGRAPH Asia Art Papers 심사단 (의장+큐레이터+실기연구자+art-science 비평가+DA) |
+| **art-pipeline** v0.1.1 | 10단계 파이프라인 오케스트레이터 (상태기계 그대로 상속) |
 
 ## 핵심 규칙 (예술 장르)
 
@@ -110,6 +112,17 @@ frame-lock, 압박 하 sycophancy, 의도 오탐 등 — 상위 ARS 스위트(v3
 CC BY-NC 4.0. 상위 academic-research-skills(저자: Cheng-I Wu)에서 포크.
 
 ## 변경 이력
+
+### v0.1.1 (2026-06-13) — 초기 공개 릴리즈
+
+> 공개 릴리즈 직전 사전 history를 단일 시작 commit으로 압축했습니다. 상세 항목은 [`CHANGELOG.md`](CHANGELOG.md)에 보존, 상위 포크 계보는 `ref/academic-research-skills/CHANGELOG.md`에 그대로 유지.
+
+- **설치 결함 수정**: `skills/`의 fork 시기 깨진 심볼릭 링크(`creative-*` → 없는 대상)를 실제 `../art-{inquiry,paper,pipeline,reviewer}`로 재연결. fresh clone에서 네 개 핵심 skill 모두 정상 등록.
+- **manifest 정합화**: `marketplace.json` 설명을 실제 모드 수(27 entries: art-inquiry 7 + art-paper 12 + art-reviewer 6 + art-pipeline orchestrator + 재개 = 2)에 맞춤. MODE_REGISTRY의 "creative pipeline" 트리거 잔재를 "art pipeline"으로 교체.
+- **명칭 정규화**: fork 시기 명칭 "Creative Research Skills"를 위키·mkdocs 사이트 제목·FAQ·인용 BibTeX·skeleton 예시 전반에서 제거. 플러그인 이름은 **Art-Paper**.
+- **한국어 워딩**: 영어 upstream/downstream의 직역 "상류/하류"를 "선행/후속"으로 교체.
+- ***Cutting Kim* worked example 추가**: 저자의 SIGGRAPH Asia 2025 art paper로 reconstruction-benchmark walkthrough (T = 0.2568 / G = 0.1261, margin +0.13, contamination 0.003 `ok`) + clean-control variant.
+- **sanity 테스트 11개** 추가 (`tests/`): skills 심볼릭 링크 해석, manifest 버전 동기, marketplace mode 수치, 위키 회귀 가드(Creative Research Skills/Emerald Harvard/fork-시기 path), instrumentation smoke.
 
 ### v0.1.0 (2026-05-22) — art-paper 포크 (아트페이퍼 특화)
 - 4개 스킬을 `art-{inquiry,paper,reviewer,pipeline}`로 재특화 (ARS의 `deep-research`/`academic-paper`/`academic-paper-reviewer`/`academic-pipeline`에서 history-preserving `git mv` 적용).
