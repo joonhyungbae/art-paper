@@ -18,7 +18,7 @@
 
 설치 후 `/art-plan`으로 소크라테스식 대화를 통해 논문 구조를 잡아보거나, 아래 [빠른 설치](#빠른-설치)에서 사전 요건과 전통적 symlink 방식을 확인하세요.
 
-**👉 [위키 — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/art-paper/)** — 이중 언어(EN + 한국어) 사용자 문서: 시작하기, 세 가지 진입점, 네 개 스킬, 방법론 개념, *Cutting Kim* worked example 전체 walkthrough.
+**👉 [위키 — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/#/art-paper)** — 이중 언어(EN + 한국어) 사용자 문서: 시작하기, 세 가지 진입점, 네 개 스킬, 방법론 개념, *Cutting Kim* worked example 전체 walkthrough.
 
 > **AI는 부조종사이지 조종사가 아닙니다.** 이 도구는 논문을 대신 써주지 않습니다. 스캐폴딩 — 선행 작품·이론 정리, ACM 인용 포맷팅, 작품·구현 주장이 관찰 가능한 증거에 닻 내려 있는지 점검, 장르 관례 준수 — 을 처리해, 정작 예술가-연구자가 해야 할 일(프로보케이션 설정, 작품 제작, 실천이 무엇을 드러내는지 판단, "이 작업은 ~을 주장한다" 다음 문장 쓰기)에 집중하도록 돕습니다.
 >

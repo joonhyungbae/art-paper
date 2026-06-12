@@ -21,7 +21,7 @@ The artwork is **primary evidence**, not data. art-paper scaffolds the parts AI 
 
 Then try `/art-plan` and describe your work — art-paper will walk you through the structure (context → conceptual framework → the work → realization → reflection) via Socratic dialogue. For a single-shot test instead, `/art-lit-review "your topic"`.
 
-**👉 [Wiki — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/art-paper/)** — bilingual user docs (EN + 한국어): getting started, three entry points, the four skills, the methodology concepts, and the *Cutting Kim* worked example end-to-end.
+**👉 [Wiki — apesuite.org/plugins/art-paper](https://apesuite.org/plugins/#/art-paper)** — bilingual user docs (EN + 한국어): getting started, three entry points, the four skills, the methodology concepts, and the *Cutting Kim* worked example end-to-end.
 
 **👉 [docs/SETUP.md](docs/SETUP.md)** — prerequisites (Claude Code, `ANTHROPIC_API_KEY`, optional Pandoc / LaTeX `tectonic` + ACM `acmart` for canonical PDF), API key, optional cross-model verification (`CRS_CROSS_MODEL` — inherited env-var name from the parent suite), and all install methods.
 
