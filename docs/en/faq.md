@@ -20,7 +20,7 @@ Cite the plugin as a software release:
 
 ```bibtex
 @software{art_paper_2026,
-  author       = {[Author redacted for anonymous review]},
+  author       = {Bae, Joonhyung},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
   version      = {0.1.1},

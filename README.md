@@ -1,4 +1,4 @@
-# art-paper for Claude Code
+# Art-Paper for Claude Code
 
 [![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://github.com/joonhyungbae/art-paper/releases)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -211,7 +211,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 ## Provenance & contributors
 
-**art-paper maintainer** — the art-research specialization (genre layer, the SIGGRAPH Asia jury, two-channel AI disclosure, acmart output) is the work of an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher. Identity, affiliation, and specific venues are withheld while the accompanying methodology paper is under double-blind review; full attribution will be restored once review is complete.
+**Maintainer — [Joonhyung Bae](https://github.com/joonhyungbae)** (KAIST). The art-research specialization (genre layer, the SIGGRAPH Asia jury, two-channel AI disclosure, acmart output) is the work of an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher. A companion methodology paper on the evaluation framework is in preparation; the plugin is released ahead of that paper and is usable on its own terms.
 
 **Upstream — Academic Research Skills (ARS).** art-paper is forked from [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) v3.9.4.2 by [Cheng-I Wu (吳政宜)](https://github.com/Imbad0202). The genre-neutral pipeline machinery (Material Passport handoff, L3 citation-faithfulness gate, generator-evaluator contract, integrity gates, anti-sycophancy / DA scoring, Collaboration Depth Observer) is inherited unchanged. A pristine ARS reference is kept at `ref/academic-research-skills/` for diffing. Fork design: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 

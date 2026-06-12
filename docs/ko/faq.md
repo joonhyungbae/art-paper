@@ -20,7 +20,7 @@
 
 ```bibtex
 @software{art_paper_2026,
-  author       = {[익명 리뷰 위해 redacted]},
+  author       = {Bae, Joonhyung},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
   version      = {0.1.1},

@@ -1,4 +1,4 @@
-# art-paper for Claude Code (한국어)
+# Art-Paper for Claude Code (한국어)
 
 [![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://github.com/joonhyungbae/art-paper/releases)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
