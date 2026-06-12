@@ -1,6 +1,6 @@
 ---
 name: art-paper
-description: "Practice-based art-paper writing agent team, specialized for the SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify category/venue against the current CFP). 12 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/artist-statement/work-doc). 5 art-paper structure patterns, ACM Reference Format citations (acmart), artwork-as-evidence model, acmart LaTeX/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write art paper, practice-based paper, artist statement, SIGGRAPH Asia paper, SIGGRAPH Asia Art Papers, document my artwork, parse reviews, AI disclosure."
+description: "Practice-based art-paper writing agent team for art-and-technology venues. Default reference target: SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify category/venue against the current CFP); alternate venues via citation-format conversion. 12 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/artist-statement/work-doc). 5 art-paper structure patterns; ACM Reference Format default (acmart) + APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver alternates; artwork-as-evidence model; acmart LaTeX/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write art paper, practice-based paper, artist statement, art-paper for any venue, SIGGRAPH Asia paper, document my artwork, parse reviews, AI disclosure."
 metadata:
   version: "0.1.0"
   last_updated: "2026-05-22"
@@ -16,7 +16,7 @@ metadata:
 
 # Creative Paper — Practice-Based Art-Paper Writing Agent Team
 
-A specialized writing tool for **practice-based art research papers** targeting the SIGGRAPH Asia Art Papers track (→ ACM Digital Library) and adjacent art-and-technology venues. 12-agent pipeline in which **the artwork is the primary evidence**, not data. See `shared/references/art_research_evidence_model.md` for the evidence model and `shared/references/art_paper_structure_patterns.md` for the 5 structure patterns (default: Practice-Based Art Paper).
+A writing tool for **practice-based art research papers** across art-and-technology venues. Default reference target: the SIGGRAPH Asia Art Papers track (→ ACM Digital Library), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver) and the five art-paper structure patterns. 12-agent pipeline in which **the artwork is the primary evidence**, not data. See `shared/references/art_research_evidence_model.md` for the evidence model and `shared/references/art_paper_structure_patterns.md` for the 5 structure patterns (default: Practice-Based Art Paper).
 
 Two writing quality features:
 - **Style Calibration** (intake Step 10, optional) — Provide 3+ past papers and the pipeline learns your writing voice (sentence rhythm, vocabulary preferences, citation integration style). Applied as a soft guide during drafting; discipline conventions always take priority. See `shared/style_calibration_protocol.md`.

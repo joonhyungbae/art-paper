@@ -5,7 +5,7 @@
 
 > 영어판(권위 있는 정본): [README.md](README.md). 이 문서는 한국어 요약본이며, 세부 변경 이력은 영어판을 따릅니다.
 
-**실천 기반 예술 연구 논문(practice-based art research paper)** 작성을 위한 Claude Code 스킬 모음입니다. 창작적 탐구부터 심사를 거친 출판 준비 원고까지 전 과정을 다루며, **SIGGRAPH Asia Art Papers 트랙**(논문집은 ACM Digital Library에 게재; 카테고리/게재처는 현행 CFP로 확인)에 특화되어 있습니다.
+**실천 기반 예술 연구 논문(practice-based art research paper)** 작성을 위한 Claude Code 스킬 모음입니다. 창작적 탐구부터 심사를 거친 출판 준비 원고까지 전 과정을 art-and-technology venue 전반에서 지원합니다. 스코프는 특정 venue가 아니라 이 *장르*이며, 방법론과 무결성 점검은 venue 중립적입니다. 기본 reference target은 **SIGGRAPH Asia Art Papers 트랙**(논문집은 ACM Digital Library에 게재; 카테고리/게재처는 현행 CFP로 확인) — `acmart` + ACM Reference Format으로 wired. 비-ACM venue는 인용 포맷 전환(APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver)과 5가지 art-paper 구조 패턴으로 지원합니다.
 
 > **[academic-research-skills (ARS)](https://github.com/Imbad0202/academic-research-skills) v3.9.4.2에서 포크.** 장르 중립적 파이프라인 기계장치 — Material Passport 핸드오프, L3 인용 충실성 게이트, generator-evaluator 계약, 무결성 게이트 — 는 그대로 상속합니다. 실증과학 장르 레이어(증거 위계, IMRaD, APA, 방법론 심사)를 예술 연구 장르 레이어(작품-as-증거, 실천 기반 구조, ACM Reference Format, 큐레이터·실기연구자 심사)로 교체했습니다. 포크 설계: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 

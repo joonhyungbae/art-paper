@@ -6,7 +6,7 @@
 
 > 🌐 [한국어 README](README.ko-KR.md)
 
-A Claude Code plugin for **practice-based art research papers** — the full pipeline from concept to a juried, publication-ready manuscript, specialized for the **SIGGRAPH Asia Art Papers track** (ACM Digital Library; verify category/venue against the current CFP).
+A Claude Code plugin for **practice-based art research papers** — the full pipeline from concept to a juried, publication-ready manuscript, across art-and-technology venues. Its scope is the *genre*, not a single venue; the methodology and integrity checks are venue-agnostic. Default reference target: the **SIGGRAPH Asia Art Papers track** (ACM Digital Library), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0, Chicago, MLA 9, IEEE, Vancouver) and the five art-paper structure patterns; verify venue specifics against the current CFP.
 
 The artwork is **primary evidence**, not data. art-paper scaffolds the parts AI does well — precedent search, ACM citation formatting, structural conventions, claim anchoring — so you can focus on what only an artist-researcher can do: framing the provocation, making the work, deciding what the practice reveals.
 

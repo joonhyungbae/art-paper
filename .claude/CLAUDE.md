@@ -1,6 +1,6 @@
 # art-paper
 
-A suite of Claude Code skills for **practice-based art research papers**, specialized for the **SIGGRAPH Asia Art Papers track** (proceedings published on the **ACM Digital Library**; verify the exact category/venue against the current CFP). Forked from academic-research-skills (ARS) v3.9.4.2; the genre-neutral pipeline machinery is inherited, the empirical-science genre layer is replaced with an art-research genre layer.
+A suite of Claude Code skills for **practice-based art research papers** across art-and-technology venues. Scope is the *genre*, not a single venue; the methodology and integrity checks are venue-agnostic. Default reference target: the **SIGGRAPH Asia Art Papers track** (proceedings published on the **ACM Digital Library**; verify category/venue against the current CFP), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver) and the five art-paper structure patterns. Forked from academic-research-skills (ARS) v3.9.4.2; the genre-neutral pipeline machinery is inherited, the empirical-science genre layer is replaced with an art-research genre layer.
 
 > Fork design: `docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`. Pristine ARS reference kept at `ref/academic-research-skills/` for diffing.
 

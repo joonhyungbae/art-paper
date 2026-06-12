@@ -2,7 +2,7 @@
 
 Get from zero to your first AI-assisted art paper in 3 steps.
 
-art-paper is a suite of Claude Code skills for **practice-based art research papers**, specialized for the **SIGGRAPH Asia Art Papers track** (proceedings on the ACM Digital Library; verify category/venue against the current CFP). It is forked from [academic-research-skills (ARS)](https://github.com/Imbad0202/academic-research-skills); the genre-neutral pipeline machinery is inherited, the genre layer is re-specialized for art research.
+art-paper is a suite of Claude Code skills for **practice-based art research papers** across art-and-technology venues. Scope is the *genre*, not a single venue; the methodology and integrity checks are venue-agnostic. Default reference target: the **SIGGRAPH Asia Art Papers track** (proceedings on the ACM Digital Library; verify category/venue against the current CFP), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver) and the five art-paper structure patterns. It is forked from [academic-research-skills (ARS)](https://github.com/Imbad0202/academic-research-skills); the genre-neutral pipeline machinery is inherited, the genre layer is re-specialized for art research.
 
 ## Step 1: Install
 

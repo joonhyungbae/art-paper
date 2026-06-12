@@ -2,7 +2,7 @@
 
 ## What this is
 
-art-paper is a **source-available art-research copilot framework** for noncommercial scholarly and artistic use. The reference distribution is a suite of Claude Code skills that assists artist-researchers through the full inquiry-to-publication pipeline for **practice-based art research papers**, specialized for the **SIGGRAPH Asia Art Papers track** (proceedings on the ACM Digital Library; verify category/venue against the current CFP).
+art-paper is a **source-available art-research copilot framework** for noncommercial scholarly and artistic use. The reference distribution is a suite of Claude Code skills that assists artist-researchers through the full inquiry-to-publication pipeline for **practice-based art research papers** across art-and-technology venues. The methodology and integrity checks are venue-agnostic; default reference target is the **SIGGRAPH Asia Art Papers track** (proceedings on the ACM Digital Library; verify category/venue against the current CFP), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver) and the five art-paper structure patterns.
 
 art-paper is forked from [academic-research-skills (ARS)](https://github.com/Imbad0202/academic-research-skills). The genre-neutral pipeline machinery (Material Passport handoff, integrity gates, citation-faithfulness gate, generator-evaluator contract) is inherited; the empirical-science genre layer is replaced with an art-research genre layer in which **the artwork is primary evidence**. Sibling distributions for other agent platforms follow the same workflow content, the same human-in-the-loop design philosophy, and the same license terms.
 

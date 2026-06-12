@@ -17,7 +17,7 @@ metadata:
 
 # Creative Pipeline v3.8.2 — Practice-Based Art-Paper Workflow Orchestrator
 
-A lightweight orchestrator that manages the complete practice-based art-paper pipeline (targeting the SIGGRAPH Asia Art Papers track → ACM Digital Library) from creative inquiry to final manuscript. It does not perform substantive work — it only detects stages, recommends modes, dispatches skills, manages transitions, and tracks state.
+A lightweight orchestrator that manages the complete practice-based art-paper pipeline (default reference target: SIGGRAPH Asia Art Papers track → ACM Digital Library; alternate venues supported via citation-format conversion) from creative inquiry to final manuscript. It does not perform substantive work — it only detects stages, recommends modes, dispatches skills, manages transitions, and tracks state.
 
 > **Routing discipline (v3.9.2):** see `.claude/CLAUDE.md` "Routing Discipline (v3.9.2)" + `shared/references/intent_clarification_protocol.md` for cross-skill routing rules. This skill assumes routing has already settled — ambiguous cross-phase materials should have been clarified upstream.
 
