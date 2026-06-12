@@ -100,14 +100,6 @@
 
 ---
 
-## 동반 논문
-
-출판된 사례에 대한 재구성-벤치마크 준수 감사(**generative-layer 셀에 걸쳐 ex-nihilo 날조 0건**, 사전등록된 hash-frozen 기준으로 검증)가 ***Digital Creativity***(Routledge / Taylor & Francis, AHCI)에 투고 단계입니다. 같은 재구성-벤치마크 방법론이 art-paper의 [*Cutting Kim* worked example](https://apesuite.org/plugins/#/art-paper/ko/examples/cutting-kim-case)을 뒷받침합니다(T = 0.2568 / G = 0.1261, margin +0.13, contamination 0.003 `ok`; clean-control variant는 margin을 −0.019로 무너뜨려 input-pack 추출 아티팩트 크기를 정직하게 드러냅니다).
-
-플러그인은 논문보다 먼저 공개되며 그 자체로 사용 가능합니다; 기여는 플러그인이 인스턴스화하는 평가 프레임워크입니다. 재현성 패키지(input pack, gold brief, 사전등록 hash, 케이스별 결과)는 게재 확정 시 논문 supplementary 채널로 공개됩니다. 이 방법론 감사는 **art-project**와 공유하는 [동반 논문](https://github.com/joonhyungbae/art-project#companion-paper)입니다.
-
----
-
 ## 라이선스 & 인용
 
 [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). 공유·수정·표기 가능, 비상업 사용 한정.

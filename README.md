@@ -100,14 +100,6 @@ The artwork is primary evidence; structures center on the work rather than IMRaD
 
 ---
 
-## Companion paper
-
-A reconstruction-benchmark compliance audit of published case studies (**zero ex-nihilo fabrications across the generative-layer cells**, verified against pre-registered, hash-frozen criteria) is in submission to ***Digital Creativity*** (Routledge / Taylor & Francis, AHCI). The same reconstruction-benchmark methodology underlies art-paper's [*Cutting Kim* worked example](https://apesuite.org/plugins/#/art-paper/en/examples/cutting-kim-case) (T = 0.2568 / G = 0.1261, margin +0.13, contamination 0.003 `ok`; the clean-control variant collapses the margin to −0.019, an honest signature of the input-pack-extraction artifact size).
-
-The plugin is released ahead of the paper and is usable on its own terms; the contribution is the evaluation framework it instantiates. The reproducibility package (input packs, gold briefs, pre-registration hash, per-case results) ships through the paper's supplementary-materials channel on acceptance. The same methodology audit is the [companion paper](https://github.com/joonhyungbae/art-project#companion-paper) shared with **art-project**.
-
----
-
 ## License & attribution
 
 [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Share + adapt + attribute, non-commercial use only.
