@@ -1,0 +1,69 @@
+.DS_Store
+experiment-agent/
+docs/superpowers/
+
+# Per-machine secrets (API keys etc.). NEVER commit.
+.env
+.env.*
+!.env.example
+
+# Local working context (codex review logs, hand-off prompts, brief drafts).
+# Anything under .context/ or .codex-rounds/ is per-session scratch and must
+# not be committed.
+.context/
+.codex-rounds/
+
+# Python bytecode / pytest cache.
+__pycache__/
+.pytest_cache/
+
+# LaTeX build artifacts (e.g. examples/art_paper_skeleton/). Keep .tex/.bib only.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.cut
+examples/art_paper_skeleton/*.pdf
+
+# Private ROADMAP lives in claude-memory-sync (花花/roadmaps/), not this public repo
+ROADMAP.md
+
+# Local-only sibling clones, not part of this repo's release:
+#  - art-paper_paper/: separate LaTeX working tree for the Aslib JIM
+#    methodology paper (maintainer-local; own git remote)
+#  - ref/: pristine academic-research-skills reference clone, for diffing the fork
+art-paper_paper/
+ref/
+
+# Downloaded SIGGRAPH Asia Art Papers proceedings (copyrighted ACM PDFs, large).
+# Local-only — never tracked in this repo. The methodology paper's pilot
+# selection / per-case numbers / extracted metadata index live in the
+# separate art-paper_paper repo, not here; keep them local.
+data/
+
+# Per-paper pilot cases derive from copyrighted ACM proceedings (gold
+# transcription + inputs extracted from them) and would carry author identity
+# information for the SIGGRAPH Asia Art Papers reviewed. Keep them local; this
+# plugin repo no longer ships pilot data — `eval/` retains only the
+# instrumentation engine + synthetic test fixture.
+eval/pilot/sa*/
+
+# MkDocs build output (deployed via GitHub Actions, not committed)
+site/
+
+# Copyrighted bench data + corpus expansion (ACM / Leonardo / Digital
+# Creativity / ISEA proceedings PDFs and the extracted JSON/JSONL metadata).
+# Local-only — never tracked in this plugin repo. Same rationale as data/
+# and eval/pilot/sa*/ above. The methodology paper's pilot lives in
+# joonhyungbae/art-paper_paper, not here.
+corpus_expansion/
+
+# Source materials dropped into the working tree during plugin development
+# (e.g. .zip / .tar.gz of paper submissions used to seed pilot cases).
+# Keep them local; the pilot data they feed into is gitignored above.
+*.zip
+*.tar.gz

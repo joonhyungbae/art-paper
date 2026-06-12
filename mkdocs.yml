@@ -1,0 +1,100 @@
+site_name: Art-Paper
+site_description: A Claude Code plugin suite for practice-based art research papers
+site_url: https://joonhyungbae.github.io/art-paper/
+repo_url: https://github.com/joonhyungbae/art-paper
+repo_name: joonhyungbae/art-paper
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+exclude_docs: |
+  ARCHITECTURE.md
+  PERFORMANCE.md
+  SETUP.md
+  design/
+  /design
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: ko
+          name: 한국어
+          build: true
+          nav_translations:
+            Overview: 개요
+            Getting started: 시작하기
+            Skills: 스킬
+            Concepts: 개념
+            Examples: 예시
+            FAQ: 자주 묻는 질문
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+nav:
+  - Overview: index.md
+  - Getting started: getting-started.md
+  - Skills:
+    - skills/index.md
+    - art-inquiry: skills/art-inquiry.md
+    - art-paper: skills/art-paper.md
+    - art-reviewer: skills/art-reviewer.md
+    - art-pipeline: skills/art-pipeline.md
+  - Concepts:
+    - concepts/index.md
+    - Practice-based research: concepts/practice-based-research.md
+    - Reconstruction benchmark: concepts/reconstruction-benchmark.md
+    - Inversion rule: concepts/inversion-rule.md
+  - Examples:
+    - examples/index.md
+    - Worked example - Cutting Kim case study: examples/cutting-kim-case.md
+  - FAQ: faq.md

@@ -1,0 +1,126 @@
+# Orchestration Workflow — Phase Details
+
+Detailed per-phase agent behavior and output descriptions for the 8-phase orchestration workflow.
+
+---
+
+## Phase 0: CONFIG (Interactive)
+
+**Agent**: `intake_agent`
+**Output**: Paper Configuration Record
+
+- Paper type (IMRaD / Lit Review / Theoretical / Case Study / Policy Brief / Conference)
+- Discipline and sub-field
+- Target journal (optional)
+- Citation format (APA 7 / Chicago / MLA / IEEE / Vancouver)
+- Output format (LaTeX / DOCX / PDF / Markdown / Combined)
+- Language (English; art-paper v0.1 default — multi-language support deferred)
+- Word count target
+- Existing materials (RQ, data, drafts, lit)
+
+**Checkpoint**: User confirms configuration.
+
+---
+
+## Phase 1: RESEARCH
+
+**Agent**: `literature_strategist_agent`
+**Output**: Search Strategy + Source Corpus
+
+- Database selection + search strings
+- Inclusion/exclusion criteria
+- Source screening + annotated bibliography
+- Literature matrix (Source x Theme)
+- Research gap mapping
+
+**Checkpoint**: User reviews sources (optional add/remove).
+
+---
+
+## Phase 2: ARCHITECTURE
+
+**Agent**: `structure_architect_agent`
+**Output**: Paper Outline + Evidence Map
+
+- Structure pattern selection (from paper_structure_patterns.md)
+- Section-by-section outline with word count allocation
+- Evidence-to-section assignment
+- Transition logic between sections
+
+**Checkpoint**: User approves outline.
+
+---
+
+## Phase 3: ARGUMENTATION
+
+**Agent**: `argument_builder_agent`
+**Output**: Argument Blueprint
+
+- Central thesis + sub-arguments
+- Claim-Evidence-Reasoning chains per section
+- Counter-argument identification + rebuttal strategy
+- Logical flow diagram
+
+---
+
+## Phase 4: DRAFTING
+
+**Agent**: `draft_writer_agent`
+**Output**: Complete Draft
+
+- Section-by-section writing following outline
+- Register adjustment for discipline
+- In-text citations integrated
+- Word count tracking per section
+- Transition paragraphs between sections
+
+---
+
+## Phase 5a & 5b: CITATIONS + ABSTRACT (Parallel)
+
+### Phase 5a: Citations
+
+**Agent**: `citation_compliance_agent`
+**Output**: Citation Audit Report
+
+- In-text <-> reference list cross-check (zero orphans)
+- Format compliance (per selected style)
+- DOI/URL verification
+- Self-citation ratio check
+- Auto-correction of detected errors
+
+### Phase 5b: Abstract
+
+**Agent**: `abstract_agent`
+**Output**: Abstract + Keywords
+
+- English abstract (Pattern 1 default: 120-200 words; up to 300 for Pattern 5)
+- Keywords (4-6; 3-5 for Pattern 2)
+- The bilingual-abstract machinery is inherited from ARS but is not the v0.1 default; verify against the current CFP
+
+---
+
+## Phase 6: PEER REVIEW
+
+**Agent**: `peer_reviewer_agent`
+**Output**: Review Report + Revision Instructions
+
+- 5-dimension scoring:
+  Originality (20%) | Methodological Rigor (25%) | Evidence Sufficiency (25%)
+  Argument Coherence (15%) | Writing Quality (15%)
+- Verdict: Accept / Minor Revision / Major Revision / Reject
+- Line-level feedback with suggested fixes
+- Max 2 revision loops -> back to Phase 4 [draft_writer_agent] (limited to 1 round in art-pipeline)
+
+---
+
+## Phase 7: FORMAT
+
+**Agent**: `formatter_agent`
+**Output**: Final Output Package
+
+- Target format conversion (LaTeX + .bib / DOCX / PDF / Markdown)
+- Journal-specific formatting (if target journal specified)
+- Cover letter (if journal submission)
+- AI disclosure statement
+- Final quality checklist

@@ -1,0 +1,1 @@
+../creative-inquiry/agents/synthesis_agent.md

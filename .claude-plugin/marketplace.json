@@ -1,0 +1,17 @@
+{
+  "name": "art-paper",
+  "owner": {
+    "name": "art-paper maintainer (withheld during double-blind review)",
+    "url": "https://github.com/joonhyungbae/art-paper"
+  },
+  "description": "art-paper — practice-based art-paper research, writing, jury review, and pipeline orchestration for Claude Code, specialized for the SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify category/venue against the current CFP). Forked from academic-research-skills.",
+  "plugins": [
+    {
+      "name": "art-paper",
+      "source": "./",
+      "description": "4 art-research skills with 27 mode entries total (art-inquiry 7, art-paper 12, art-reviewer 6, art-pipeline orchestrator + cross-session resume = 2). The artwork is primary evidence; ACM Reference Format (acmart) output; SIGGRAPH Asia Art Papers jury review. Inherits the ARS Material Passport pipeline, L3 citation-faithfulness gate, and generator-evaluator contract.",
+      "version": "0.1.1",
+      "license": "CC-BY-NC-4.0"
+    }
+  ]
+}
