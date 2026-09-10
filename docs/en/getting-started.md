@@ -14,7 +14,7 @@
 **Recommended — Claude Code plugin marketplace:**
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 
@@ -23,7 +23,7 @@ Open Claude Code and verify the skills appear with `/art-` slash command complet
 **Alternative — manual clone (for hacking on the plugin itself):**
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git
+git clone https://example.com/art-paper.git
 cd art-paper
 ```
 
@@ -35,7 +35,7 @@ The plugin supports three common entry points depending on how far along your pr
 
 ### Entry point A — "I have a finished artwork and want to write the paper"
 
-Set up an `input/` directory in your working folder. You can mirror the input pack from the [Cutting Kim case study](examples/cutting-kim-case.md):
+Set up an `input/` directory in your working folder. You can mirror the input pack from the the documentation under `eval/repro/`:
 
 ```
 my-paper/
@@ -48,7 +48,7 @@ my-paper/
 └── (provocation + reflection are elicited from you by the pipeline)
 ```
 
-Example `concept_memo.md` (from the Cutting Kim case):
+Example `concept_memo.md` (synthetic example):
 
 ```markdown
 An interactive VR experience for the Oculus Quest 2 in which the player's own
@@ -135,6 +135,6 @@ If you do not yet know your provocation, run the [Socratic inquiry mode](skills/
 
 ## Next steps
 
-- Walk through the [Cutting Kim case study](examples/cutting-kim-case.md) — the worked example from input pack to firewalled reconstruction to instrumentation
+- Walk through the the documentation under `eval/repro/` — the worked example from input pack to firewalled reconstruction to instrumentation
 - Read about the [skills individually](skills/index.md)
 - Understand the [methodology concepts](concepts/index.md) that ground the plugin's design

@@ -6,7 +6,6 @@
 
 | Case | 무엇을 보여주는가 |
 |---|---|
-| [Cutting Kim — Bae, Choi, Nam (2025) VR 음성 상호작용 작품](cutting-kim-case.md) | 저자들이 직접 제공한 SIGGRAPH Asia 2025 Art Paper에 대한 전체 reconstruction-benchmark walkthrough: input pack, firewalled 재구성, instrumentation 결과, 그리고 minimal-footprint clean-control variant |
 
 ## 예시 생성 방식
 

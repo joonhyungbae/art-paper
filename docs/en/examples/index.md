@@ -6,7 +6,6 @@ Worked examples of the plugin applied to real cases. Each example shows the comp
 
 | Case | What it demonstrates |
 |---|---|
-| [Cutting Kim — VR voice-interaction artwork by Bae, Choi & Nam (2025)](cutting-kim-case.md) | Full reconstruction-benchmark walkthrough on a SIGGRAPH Asia 2025 Art Paper contributed by its authors: input pack, firewalled plugin reconstruction, instrumentation, and a minimal-footprint clean-control variant |
 
 ## How the examples were generated
 

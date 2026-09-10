@@ -1,8 +1,8 @@
 {
   "name": "art-paper",
   "owner": {
-    "name": "Joonhyung Bae",
-    "url": "https://github.com/joonhyungbae/art-paper"
+    "name": "the maintainer",
+    "url": "https://example.com/art-paper"
   },
   "description": "art-paper — practice-based art-paper research, writing, jury review, and pipeline orchestration for Claude Code across art-and-technology venues. Default reference target: SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify category/venue against the current CFP), wired to acmart + ACM Reference Format. Alternate venues via citation-format conversion. Forked from academic-research-skills.",
   "plugins": [

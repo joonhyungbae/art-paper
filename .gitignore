@@ -59,7 +59,7 @@ site/
 # Creativity / ISEA proceedings PDFs and the extracted JSON/JSONL metadata).
 # Local-only — never tracked in this plugin repo. Same rationale as data/
 # and eval/pilot/sa*/ above. The methodology paper's pilot lives in
-# joonhyungbae/art-paper_paper, not here.
+# example/art-paper_paper, not here.
 corpus_expansion/
 
 # Source materials dropped into the working tree during plugin development

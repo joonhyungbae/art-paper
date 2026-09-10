@@ -9,7 +9,7 @@ art-paper is a suite of Claude Code skills for **practice-based art research pap
 Inside Claude Code:
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 

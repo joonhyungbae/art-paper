@@ -20,11 +20,11 @@
 
 ```bibtex
 @software{art_paper_2026,
-  author       = {Bae, Joonhyung},
+  author       = {[author withheld]},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
   version      = {0.1.1},
-  url          = {https://github.com/joonhyungbae/art-paper},
+  url          = {https://example.com/art-paper},
   note         = {CC-BY-NC 4.0}
 }
 ```
@@ -39,7 +39,7 @@
 
 ## 버그 신고나 기능 요청은?
 
-[리포지토리](https://github.com/joonhyungbae/art-paper/issues) 의 GitHub Issues. Skill (`art-inquiry` / `art-paper` / `art-reviewer` / `art-pipeline`), 모드, input 자료의 일반 형태 명시 (실제 작품이나 paper 공유는 원할 때만).
+[리포지토리](https://example.com/art-paper/issues) 의 GitHub Issues. Skill (`art-inquiry` / `art-paper` / `art-reviewer` / `art-pipeline`), 모드, input 자료의 일반 형태 명시 (실제 작품이나 paper 공유는 원할 때만).
 
 ## 라이선스?
 

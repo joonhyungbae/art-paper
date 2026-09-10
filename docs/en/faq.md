@@ -20,11 +20,11 @@ Cite the plugin as a software release:
 
 ```bibtex
 @software{art_paper_2026,
-  author       = {Bae, Joonhyung},
+  author       = {[author withheld]},
   title        = {Art-Paper: A Claude Code plugin suite for practice-based art research papers},
   year         = {2026},
   version      = {0.1.1},
-  url          = {https://github.com/joonhyungbae/art-paper},
+  url          = {https://example.com/art-paper},
   note         = {CC-BY-NC 4.0}
 }
 ```
@@ -39,7 +39,7 @@ The plugin runs on the Anthropic Claude API. Whether your inputs and outputs are
 
 ## How do I report a bug or request a feature?
 
-GitHub Issues on the [repository](https://github.com/joonhyungbae/art-paper/issues). Please specify your skill (`art-inquiry` / `art-paper` / `art-reviewer` / `art-pipeline`), mode, and the input materials' general shape (no need to share the actual artwork or paper unless you want to).
+GitHub Issues on the [repository](https://example.com/art-paper/issues). Please specify your skill (`art-inquiry` / `art-paper` / `art-reviewer` / `art-pipeline`), mode, and the input materials' general shape (no need to share the actual artwork or paper unless you want to).
 
 ## License?
 

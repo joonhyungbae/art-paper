@@ -56,7 +56,7 @@ def test_instrumentation_runs_on_synthetic_fixture():
 def test_layer_split_is_keyword_driven():
     """The Pattern-1 layer split keys are present in the public LAYERS table.
 
-    Regression guard: the Cutting Kim worked example depends on the layer
+    Regression guard: the [worked example withheld] worked example depends on the layer
     keyword list (`introduction`, `conceptual framework`, `the work`,
     `realization`, `reflection`, `discussion`, `conclusion`) staying stable.
     """

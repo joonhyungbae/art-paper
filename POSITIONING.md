@@ -10,7 +10,7 @@ art-paper is forked from [academic-research-skills (ARS)](https://github.com/Imb
 
 The art-research genre layer is not adapted to the field from outside it. Its load-bearing decisions — that the artwork is primary evidence; the evidence model that triangulates work, process, exhibition, lineage, and reflection; the jury composition (curator, practitioner-researcher, art-science critic); and the two-channel AI disclosure that separates AI used to *make* the artwork from AI used to *write* the paper — were made from inside practice. The maintainer works at once as an exhibiting artist, an author of practice-based art papers at peer-reviewed venues, and an AI researcher publishing in the field. The fork exists because that combination needs all three lenses at once, and the empirical-science genre layer it inherits was the wrong fit for art research.
 
-> Maintained by **Joonhyung Bae** (KAIST). A companion methodology paper on the evaluation framework is in preparation; the plugin is released ahead of that paper and is usable on its own terms.
+> Maintained by **the maintainer** . A companion methodology paper on the evaluation framework is in preparation; the plugin is released ahead of that paper and is usable on its own terms.
 
 It is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). This is not an open source license — it restricts commercial use by design, to keep the tool free for art and academic communities.
 
@@ -63,7 +63,7 @@ These reflect our policy intent. See the [CC BY-NC 4.0 license](https://creative
 If you use art-paper in your research or practice, please cite it alongside its parent suite:
 
 ```
-Bae, J. (2026). Art-Paper (Version 0.1.1) [Computer software].
+[Maintainer] (2026). Art-Paper (Version 0.1.1) [Computer software].
 Forked from Academic Research Skills by Cheng-I Wu.
 https://github.com/Imbad0202/academic-research-skills
 ```

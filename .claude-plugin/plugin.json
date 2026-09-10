@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "description": "Practice-based art-paper pipeline for Claude Code across art-and-technology venues — inquiry → write → integrity check → jury review → revise → finalize. Scope is the genre, not a single venue; the methodology and integrity checks are venue-agnostic. Default reference target: SIGGRAPH Asia Art Papers track (proceedings on the ACM Digital Library; verify category/venue against the current CFP), wired to acmart + ACM Reference Format. Alternate venues supported via citation-format conversion (APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver). The artwork is primary evidence. Forked from academic-research-skills v3.9.4.2; inherits the Material Passport pipeline, L3 citation-faithfulness gate, and generator-evaluator contract.",
   "author": {
-    "name": "Joonhyung Bae",
-    "url": "https://github.com/joonhyungbae/art-paper"
+    "name": "the maintainer",
+    "url": "https://example.com/art-paper"
   },
-  "homepage": "https://github.com/joonhyungbae/art-paper",
-  "repository": "https://github.com/joonhyungbae/art-paper",
+  "homepage": "https://example.com/art-paper",
+  "repository": "https://example.com/art-paper",
   "license": "CC-BY-NC-4.0",
   "keywords": [
     "art-paper",

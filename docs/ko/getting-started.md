@@ -14,7 +14,7 @@
 **권장 — Claude Code 플러그인 마켓플레이스:**
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 
@@ -23,7 +23,7 @@ Claude Code를 열어 `/art-` slash command 자동완성으로 skill이 표시�
 **대안 — 수동 clone (플러그인 자체를 해킹할 때):**
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git
+git clone https://example.com/art-paper.git
 cd art-paper
 ```
 
@@ -35,7 +35,7 @@ cd art-paper
 
 ### 진입점 A — "완성된 작품이 있고 논문을 쓰고 싶다"
 
-작업 디렉토리에 `input/` 폴더를 만들고 자료를 정리하세요. [Cutting Kim 사례](examples/cutting-kim-case.md) 의 input pack 구성을 그대로 본떠도 됩니다:
+작업 디렉토리에 `input/` 폴더를 만들고 자료를 정리하세요. the documentation under `eval/repro/` 의 input pack 구성을 그대로 본떠도 됩니다:
 
 ```
 my-paper/
@@ -48,7 +48,7 @@ my-paper/
 └── (provocation + reflection은 파이프라인이 작가에게 묻습니다)
 ```
 
-`concept_memo.md` 예시 (Cutting Kim 사례에서):
+`concept_memo.md` 예시 (합성 예시):
 
 ```markdown
 An interactive VR experience for the Oculus Quest 2 in which the player's own
@@ -134,6 +134,6 @@ Concept & Provocation Brief, Practice-Based Methodology Blueprint, precedent 작
 
 ## 다음 단계
 
-- [Cutting Kim 사례 연구](examples/cutting-kim-case.md) — input pack → firewalled 재구성 → instrumentation 전체 walkthrough
+- the documentation under `eval/repro/` — input pack → firewalled 재구성 → instrumentation 전체 walkthrough
 - [개별 skill 문서](skills/index.md) 읽기
 - 플러그인 설계의 근거가 되는 [방법론 개념](concepts/index.md) 이해

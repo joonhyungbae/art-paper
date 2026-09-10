@@ -1,12 +1,12 @@
 # Art-Paper for Claude Code
 
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-plugin-D77757)](https://docs.claude.com/claude-code)
-[![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://github.com/joonhyungbae/art-paper/releases)
+[![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://example.com/art-paper/releases)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Wiki](https://img.shields.io/badge/wiki-EN%20%2F%20KO-blue)](https://apesuite.org/plugins/#/art-paper/en/index)
-[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/crucify020v)
+[![Wiki](https://img.shields.io/badge/wiki-EN%20%2F%20KO-blue)](https://example.com/plugins/#/art-paper/en/index)
+[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://example.com/sponsor)
 
-> [한국어 README](README.ko-KR.md) · 📖 Wiki: [English](https://apesuite.org/plugins/#/art-paper/en/index) / [한국어](https://apesuite.org/plugins/#/art-paper/ko/index)
+> [한국어 README](README.ko-KR.md) · 📖 Wiki: [English](https://example.com/plugins/#/art-paper/en/index) / [한국어](https://example.com/plugins/#/art-paper/ko/index)
 
 A Claude Code plugin for **practice-based art research papers** — the full pipeline from concept to a juried, publication-ready manuscript, across art-and-technology venues. Its scope is the *genre*, not a single venue; the methodology and integrity checks are venue-agnostic. Default reference target: the **SIGGRAPH Asia Art Papers track** (ACM Digital Library), wired to `acmart` + ACM Reference Format. Alternate venues are supported via citation-format conversion (APA 7.0, Chicago, MLA 9, IEEE, Vancouver) and the five art-paper structure patterns; verify venue specifics against the current CFP.
 
@@ -20,8 +20,8 @@ The artwork is **primary evidence**, not data. art-paper scaffolds the parts AI 
 
 | | Plugin | Phase | What it scaffolds |
 |---|---|---|---|
-| | **[art-project](https://github.com/joonhyungbae/art-project)** | *before the work* | Pre-studio articulation — impulse surfacing, tradition-tagged provocations, lineage positioning, a Concept Brief, self-critique rehearsal |
-| **← you are here** | **[art-paper](https://github.com/joonhyungbae/art-paper)** | *after the work* | Practice-based art-paper authoring — inquiry, drafting, ACM citation, a SIGGRAPH Asia jury, acmart LaTeX → PDF |
+| | **[art-project](https://example.com/art-project)** | *before the work* | Pre-studio articulation — impulse surfacing, tradition-tagged provocations, lineage positioning, a Concept Brief, self-critique rehearsal |
+| **← you are here** | **[art-paper](https://example.com/art-paper)** | *after the work* | Practice-based art-paper authoring — inquiry, drafting, ACM citation, a SIGGRAPH Asia jury, acmart LaTeX → PDF |
 
 The arc: **art-project** articulate the concept → *make the work in your studio* → **art-paper** write the juried paper. Each stands alone; together they span concept-to-publication.
 
@@ -32,13 +32,13 @@ The arc: **art-project** articulate the concept → *make the work in your studi
 ## Install (30 seconds)
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 
 Then try `/art-plan` and describe your work — art-paper will walk you through the structure (context → conceptual framework → the work → realization → reflection) via Socratic dialogue. For a single-shot test instead, `/art-lit-review "your topic"`.
 
-**👉 [Wiki — apesuite.org/plugins/#/art-paper](https://apesuite.org/plugins/#/art-paper/en/index)** — bilingual user docs (EN + 한국어): getting started, three entry points, the four skills, the methodology concepts, and the *Cutting Kim* worked example end-to-end.
+**👉 [Wiki — example.com/plugins/#/art-paper](https://example.com/plugins/#/art-paper/en/index)** — bilingual user docs (EN + 한국어): getting started, three entry points, the four skills, the methodology concepts, and the *[worked example withheld]* worked example end-to-end.
 
 **👉 [docs/SETUP.md](docs/SETUP.md)** — prerequisites (Claude Code, `ANTHROPIC_API_KEY`, optional Pandoc / LaTeX `tectonic` + ACM `acmart` for canonical PDF), API key, optional cross-model verification (`CRS_CROSS_MODEL` — inherited env-var name from the parent suite), and all install methods.
 
@@ -64,7 +64,7 @@ The **art-research genre layer** (`shared/references/`): the artwork as primary 
 - `/art-full` — the full pipeline from concept to acmart PDF.
 - Natural language: *"Document this artwork (materials, process, exhibition)."* The suite auto-routes by intent and announces the routing transparently.
 
-**👉 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — flow diagram, stage-by-stage matrix, agents, quality gates. Full per-mode trigger phrases are in each `SKILL.md` and the [wiki](https://apesuite.org/plugins/#/art-paper/en/index).
+**👉 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — flow diagram, stage-by-stage matrix, agents, quality gates. Full per-mode trigger phrases are in each `SKILL.md` and the [wiki](https://example.com/plugins/#/art-paper/en/index).
 
 ---
 
@@ -113,7 +113,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 ## Provenance
 
-**Maintainer — [Joonhyung Bae](https://github.com/joonhyungbae)** (KAIST). The art-research specialization (genre layer, the SIGGRAPH Asia jury, two-channel AI disclosure, acmart output) is the work of an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher.
+**Maintainer — the maintainer** . The art-research specialization (genre layer, the SIGGRAPH Asia jury, two-channel AI disclosure, acmart output) is the work of an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher.
 
 **Upstream — Academic Research Skills (ARS).** art-paper is forked from [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) v3.9.4.2 by [Cheng-I Wu (吳政宜)](https://github.com/Imbad0202). The genre-neutral pipeline machinery (Material Passport handoff, L3 citation-faithfulness gate, generator-evaluator contract, integrity gates, anti-sycophancy / DA scoring, Collaboration Depth Observer) is inherited unchanged. A pristine ARS reference is kept at `ref/academic-research-skills/` for diffing. Fork design: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 
@@ -141,7 +141,7 @@ art-paper/
 
 See [`CHANGELOG.md`](CHANGELOG.md) for full history. Entries below v0.1.0 are the inherited **academic-research-skills (ARS)** changelog, retained as provenance and preserved verbatim at [`ref/academic-research-skills/CHANGELOG.md`](ref/academic-research-skills/CHANGELOG.md).
 
-- **v0.1.1** (2026-06-13) — *initial public release.* Install-defect fix (`skills/` symlinks repointed from broken fork-period `creative-*` names to `../art-{inquiry,paper,pipeline,reviewer}`); manifest accuracy (27 mode entries); suite-name normalisation (removed the fork-period "Creative Research Skills" label everywhere user-facing); the *Cutting Kim* worked example added; 11 stdlib-only regression guards in `tests/`.
+- **v0.1.1** (2026-06-13) — *initial public release.* Install-defect fix (`skills/` symlinks repointed from broken fork-period `creative-*` names to `../art-{inquiry,paper,pipeline,reviewer}`); manifest accuracy (27 mode entries); suite-name normalisation (removed the fork-period "Creative Research Skills" label everywhere user-facing); the *[worked example withheld]* worked example added; 11 stdlib-only regression guards in `tests/`.
 - **v0.1.0** (2026-05-22, art-paper fork) — re-specializes the 4-skill suite from empirical scientific papers to **practice-based art research papers** targeting the **SIGGRAPH Asia Art Papers track**. Four skills renamed via `git mv`; slash commands renamed `ars-*` → `art-*` with two new modes (artist-statement, work-doc); genre layer replaced in `shared/references/`; canonical output moved to **acmart LaTeX → PDF** (IRON RULE: PDF compiled from LaTeX, never HTML-to-PDF); reviewer reframed as the SIGGRAPH Asia jury; integrity gate re-scoped to artwork / realization claim verification. Fork design: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 
 > Full inherited ARS history (v1.0 → v3.9.4.2) lives at [`ref/academic-research-skills/CHANGELOG.md`](ref/academic-research-skills/CHANGELOG.md) — art-paper does not re-narrate the parent suite's release history here.

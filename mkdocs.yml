@@ -1,8 +1,8 @@
 site_name: Art-Paper
 site_description: A Claude Code plugin suite for practice-based art research papers
-site_url: https://joonhyungbae.github.io/art-paper/
-repo_url: https://github.com/joonhyungbae/art-paper
-repo_name: joonhyungbae/art-paper
+site_url: https://example.com/art-paper-docs/
+repo_url: https://example.com/art-paper
+repo_name: example/art-paper
 
 theme:
   name: material
@@ -96,5 +96,4 @@ nav:
     - Inversion rule: concepts/inversion-rule.md
   - Examples:
     - examples/index.md
-    - Worked example - Cutting Kim case study: examples/cutting-kim-case.md
   - FAQ: faq.md

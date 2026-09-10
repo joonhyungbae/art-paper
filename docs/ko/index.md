@@ -23,7 +23,7 @@
 
 ## 빠른 시작
 
-설치와 첫 실행은 [시작하기](getting-started.md) 참조. 한 작품에 대한 전체 플러그인 walkthrough — input pack, firewalled 재구성, instrumentation — 는 [Cutting Kim 사례 연구](examples/cutting-kim-case.md) 참조.
+설치와 첫 실행은 [시작하기](getting-started.md) 참조. 한 작품에 대한 전체 플러그인 walkthrough — input pack, firewalled 재구성, instrumentation — 는 the documentation under `eval/repro/` 참조.
 
 ## 상태
 

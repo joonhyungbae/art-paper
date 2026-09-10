@@ -1,12 +1,12 @@
 # Art-Paper for Claude Code (한국어)
 
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-plugin-D77757)](https://docs.claude.com/claude-code)
-[![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://github.com/joonhyungbae/art-paper/releases)
+[![Version](https://img.shields.io/badge/version-v0.1.1-blue)](https://example.com/art-paper/releases)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![위키](https://img.shields.io/badge/wiki-KO%20%2F%20EN-blue)](https://apesuite.org/plugins/#/art-paper/ko/index)
-[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/crucify020v)
+[![위키](https://img.shields.io/badge/wiki-KO%20%2F%20EN-blue)](https://example.com/plugins/#/art-paper/ko/index)
+[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://example.com/sponsor)
 
-> 영어판(권위 있는 정본): [README.md](README.md) · 📖 위키: [한국어](https://apesuite.org/plugins/#/art-paper/ko/index) / [English](https://apesuite.org/plugins/#/art-paper/en/index)
+> 영어판(권위 있는 정본): [README.md](README.md) · 📖 위키: [한국어](https://example.com/plugins/#/art-paper/ko/index) / [English](https://example.com/plugins/#/art-paper/en/index)
 
 **실천 기반 예술 연구 논문(practice-based art research paper)** 작성을 위한 Claude Code 플러그인입니다 — 창작적 탐구부터 심사를 거친 출판 준비 원고까지 전 과정을 art-and-technology venue 전반에서 지원합니다. 스코프는 특정 venue가 아니라 이 *장르*이며, 방법론과 무결성 점검은 venue 중립적입니다. 기본 reference target은 **SIGGRAPH Asia Art Papers 트랙**(논문집은 ACM Digital Library에 게재) — `acmart` + ACM Reference Format으로 wired. 비-ACM venue는 인용 포맷 전환(APA 7.0 / Chicago / MLA 9 / IEEE / Vancouver)과 5가지 art-paper 구조 패턴으로 지원합니다. venue 특정값은 현행 CFP로 확인하세요.
 
@@ -20,8 +20,8 @@
 
 | | 플러그인 | 단계 | 스캐폴딩하는 것 |
 |---|---|---|---|
-| | **[art-project](https://github.com/joonhyungbae/art-project)** | *작품 이전* | 스튜디오 진입 전 언어화 — 충동 surfacing, 전통-태그 도발, 계보 위치잡기, Concept Brief, 자기비평 리허설 |
-| **← 현재 위치** | **[art-paper](https://github.com/joonhyungbae/art-paper)** | *작품 이후* | 실천 기반 아트페이퍼 집필 — 탐구, 초안, ACM 인용, SIGGRAPH Asia 심사단, acmart LaTeX → PDF |
+| | **[art-project](https://example.com/art-project)** | *작품 이전* | 스튜디오 진입 전 언어화 — 충동 surfacing, 전통-태그 도발, 계보 위치잡기, Concept Brief, 자기비평 리허설 |
+| **← 현재 위치** | **[art-paper](https://example.com/art-paper)** | *작품 이후* | 실천 기반 아트페이퍼 집필 — 탐구, 초안, ACM 인용, SIGGRAPH Asia 심사단, acmart LaTeX → PDF |
 
 흐름: **art-project** 개념 언어화 → *스튜디오에서 작품 제작* → **art-paper** 심사용 논문 집필. 각각 독립적으로 쓸 수 있고, 함께 쓰면 개념-투-출판 전 구간을 잇습니다.
 
@@ -32,13 +32,13 @@
 ## 30초 설치
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 
 설치 후 `/art-plan`으로 작업을 설명하면 소크라테스식 대화를 통해 구조(맥락 → 개념 틀 → 작품 → 구현 → 성찰)를 함께 잡아줍니다. 단발성 테스트는 `/art-lit-review "주제"`.
 
-**👉 [위키 — apesuite.org/plugins/#/art-paper](https://apesuite.org/plugins/#/art-paper/ko/index)** — 이중 언어(EN + 한국어) 사용자 문서: 시작하기, 세 가지 진입점, 네 개 스킬, 방법론 개념, *Cutting Kim* worked example 전체 walkthrough.
+**👉 [위키 — example.com/plugins/#/art-paper](https://example.com/plugins/#/art-paper/ko/index)** — 이중 언어(EN + 한국어) 사용자 문서: 시작하기, 세 가지 진입점, 네 개 스킬, 방법론 개념, *[worked example withheld]* worked example 전체 walkthrough.
 
 **👉 [docs/SETUP.md](docs/SETUP.md)** — 사전 요건(Claude Code, `ANTHROPIC_API_KEY`, 정본 PDF용 선택 항목 Pandoc / LaTeX `tectonic` + ACM `acmart`), API 키, 선택적 교차모델 검증(`CRS_CROSS_MODEL` — 상위 스위트에서 상속한 환경변수명), 전체 설치 방법.
 
@@ -64,7 +64,7 @@
 - `/art-full` — 개념부터 acmart PDF까지 전체 파이프라인.
 - 자연어: *"이 작품을 문서화해줘 (재료, 과정, 전시)."* 스위트가 의도로 자동 라우팅하고 결정을 투명하게 announce.
 
-**👉 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — 흐름도, 단계별 행렬, 에이전트, 품질 게이트. 모드별 전체 트리거 문구는 각 `SKILL.md`와 [위키](https://apesuite.org/plugins/#/art-paper/ko/index)에 있습니다.
+**👉 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — 흐름도, 단계별 행렬, 에이전트, 품질 게이트. 모드별 전체 트리거 문구는 각 `SKILL.md`와 [위키](https://example.com/plugins/#/art-paper/ko/index)에 있습니다.
 
 ---
 
@@ -113,7 +113,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 ## 출처
 
-**메인테이너 — [Joonhyung Bae](https://github.com/joonhyungbae)** (KAIST). 예술 연구 특화(장르 레이어, SIGGRAPH Asia 심사단, 2채널 AI 공시, acmart 출력)는 전시 작가이자 peer-reviewed venue의 실천 기반 아트페이퍼 저자이며 AI 연구자인 메인테이너의 작업입니다.
+**메인테이너 — the maintainer** . 예술 연구 특화(장르 레이어, SIGGRAPH Asia 심사단, 2채널 AI 공시, acmart 출력)는 전시 작가이자 peer-reviewed venue의 실천 기반 아트페이퍼 저자이며 AI 연구자인 메인테이너의 작업입니다.
 
 **상위 — Academic Research Skills (ARS).** art-paper는 [Cheng-I Wu (吳政宜)](https://github.com/Imbad0202)의 [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) v3.9.4.2에서 포크했습니다. 장르 중립 파이프라인 기계장치(Material Passport 핸드오프, L3 인용 충실성 게이트, generator-evaluator 계약, 무결성 게이트, anti-sycophancy / DA 채점, Collaboration Depth Observer)는 변경 없이 상속됩니다. diff용 pristine ARS는 `ref/academic-research-skills/`에 보관. 포크 설계: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 
@@ -141,7 +141,7 @@ art-paper/
 
 전체 이력은 [`CHANGELOG.md`](CHANGELOG.md). v0.1.0 미만 항목은 상속된 **academic-research-skills (ARS)** 변경 이력으로, [`ref/academic-research-skills/CHANGELOG.md`](ref/academic-research-skills/CHANGELOG.md)에 그대로 보존됩니다.
 
-- **v0.1.1** (2026-06-13) — *초기 공개 릴리즈.* 설치 결함 수정(`skills/` 심볼릭 링크를 fork 시기 깨진 `creative-*` → `../art-{inquiry,paper,pipeline,reviewer}`로 재연결); manifest 정합화(27 mode entries); 명칭 정규화(fork 시기 "Creative Research Skills" 라벨을 user-facing 전반에서 제거); *Cutting Kim* worked example 추가; `tests/`에 11개 stdlib 회귀 가드.
+- **v0.1.1** (2026-06-13) — *초기 공개 릴리즈.* 설치 결함 수정(`skills/` 심볼릭 링크를 fork 시기 깨진 `creative-*` → `../art-{inquiry,paper,pipeline,reviewer}`로 재연결); manifest 정합화(27 mode entries); 명칭 정규화(fork 시기 "Creative Research Skills" 라벨을 user-facing 전반에서 제거); *[worked example withheld]* worked example 추가; `tests/`에 11개 stdlib 회귀 가드.
 - **v0.1.0** (2026-05-22, art-paper 포크) — 4-스킬 스위트를 실증 과학 논문에서 **실천 기반 예술 연구 논문**(**SIGGRAPH Asia Art Papers 트랙** 타겟)으로 재특화. 4개 스킬 `git mv` 개명; 슬래시 커맨드 `ars-*` → `art-*` + 새 모드 2개(artist-statement, work-doc); `shared/references/` 장르 레이어 교체; 정본 출력을 **acmart LaTeX → PDF**로 이동(IRON RULE: PDF는 LaTeX에서 컴파일, HTML-to-PDF 금지); 리뷰어를 SIGGRAPH Asia 심사단으로 재구성; 무결성 게이트를 작품 / 구현 주장 검증으로 재스코프. 포크 설계: [`docs/design/2026-05-22-art-paper-v0.1-fork-spec.md`](docs/design/2026-05-22-art-paper-v0.1-fork-spec.md).
 
 > 상속된 ARS 전체 이력(v1.0 → v3.9.4.2)은 [`ref/academic-research-skills/CHANGELOG.md`](ref/academic-research-skills/CHANGELOG.md)에 있습니다 — art-paper는 상위 스위트 릴리즈 이력을 여기서 다시 서술하지 않습니다.

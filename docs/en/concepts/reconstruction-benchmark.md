@@ -43,4 +43,4 @@ Clean control is bounded by what each case's independent footprint contains — 
 - The `art-paper` skill `citation-check` mode runs the citation-locator audit that is one part of the benchmark
 - The `art-reviewer` skill's integrity-gate logic uses the same inversion rule
 - The full instrumentation script lives in the `eval/instrumentation.py` of the companion paper's reproducibility mirror
-- A worked example of the benchmark applied to a single case is in [the Cutting Kim case study](../examples/cutting-kim-case.md)
+- A worked example of the benchmark applied to a single case is in `eval/repro/`

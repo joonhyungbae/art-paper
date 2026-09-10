@@ -2,7 +2,7 @@
 
 ## art-paper — fork statement
 
-art-paper is an independent fork of academic-research-skills, re-specialized for practice-based art research. It is a personal project, maintained by **Joonhyung Bae** (KAIST) — an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher. Developed in personal time on personal equipment using self-paid AI subscriptions, the plugin contains no confidential information from any employer. A companion methodology paper on the evaluation framework is in preparation; the plugin is released ahead of that paper and is usable on its own terms.
+art-paper is an independent fork of academic-research-skills, re-specialized for practice-based art research. It is a personal project, maintained by **the maintainer**  — an exhibiting artist, author of practice-based art papers at peer-reviewed venues, and AI researcher. Developed in personal time on personal equipment using self-paid AI subscriptions, the plugin contains no confidential information from any employer. A companion methodology paper on the evaluation framework is in preparation; the plugin is released ahead of that paper and is usable on its own terms.
 
 ## Upstream (ARS) statement — retained as provenance
 

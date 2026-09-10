@@ -2,7 +2,7 @@
 
 Prerequisites and optional setup for art-paper, the practice-based art-paper fork of Academic Research Skills (ARS). If you only need Markdown output and the default Claude Opus 4.7 pipeline, you can skip most of this — see "Minimum viable setup" below.
 
-> **Install endpoints.** art-paper installs from its own `joonhyungbae/art-paper` repo and marketplace; the `git clone` examples clone the same repo. The traditional symlink/copy flow targets the **`creative-*` skill directories** (`art-inquiry`, `art-paper`, `art-reviewer`, `art-pipeline`). The pristine ARS reference distribution is kept at `ref/academic-research-skills/` for diffing only — do not install from it.
+> **Install endpoints.** art-paper installs from its own `example/art-paper` repo and marketplace; the `git clone` examples clone the same repo. The traditional symlink/copy flow targets the **`creative-*` skill directories** (`art-inquiry`, `art-paper`, `art-reviewer`, `art-pipeline`). The pristine ARS reference distribution is kept at `ref/academic-research-skills/` for diffing only — do not install from it.
 
 ---
 
@@ -182,11 +182,11 @@ Do not install the whole repository as one nested skill folder under `.claude/sk
 If you use Claude Code CLI, VS Code extension, or JetBrains extension, install art-paper as a plugin:
 
 ```text
-/plugin marketplace add joonhyungbae/art-paper
+/plugin marketplace add example/art-paper
 /plugin install art-paper
 ```
 
-The `marketplace add` endpoint is the art-paper repo `joonhyungbae/art-paper`; the installed plugin is `art-paper`.
+The `marketplace add` endpoint is the art-paper repo `example/art-paper`; the installed plugin is `art-paper`.
 
 The four skills (`art-inquiry`, `art-paper`, `art-reviewer`, `art-pipeline`) are auto-discovered from the plugin's `skills/` directory.
 
@@ -204,7 +204,7 @@ Use this when you want art-paper available inside an existing Claude Code projec
 Clone the repo to a stable local path, then copy each skill folder into your project's `.claude/skills/` directory:
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git ~/art-paper
+git clone https://example.com/art-paper.git ~/art-paper
 
 cd /path/to/your/project
 mkdir -p .claude/skills
@@ -228,7 +228,7 @@ Then copy the `.claude/CLAUDE.md` content into your project's `.claude/CLAUDE.md
 > **Global Claude Code installation:** To make these skills available across your Claude Code projects, install the four folders to `~/.claude/skills/` instead:
 >
 > ```bash
-> git clone https://github.com/joonhyungbae/art-paper.git ~/art-paper
+> git clone https://example.com/art-paper.git ~/art-paper
 >
 > mkdir -p ~/.claude/skills
 > cp -R ~/art-paper/art-inquiry ~/.claude/skills/art-inquiry
@@ -242,7 +242,7 @@ Then copy the `.claude/CLAUDE.md` content into your project's `.claude/CLAUDE.md
 Use this when you want to work directly inside the art-paper repository.
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git art-paper
+git clone https://example.com/art-paper.git art-paper
 cd art-paper
 claude
 ```
@@ -250,7 +250,7 @@ claude
 <details>
 <summary><strong>No Git?</strong> Download as ZIP instead</summary>
 
-1. Go to <https://github.com/joonhyungbae/art-paper>
+1. Go to <https://example.com/art-paper>
 2. Click the green **Code** button → **Download ZIP**
 3. Extract the ZIP to your desired location
 4. For Method 1: copy the four extracted skill folders (`art-inquiry`, `art-paper`, `art-reviewer`, `art-pipeline`) into `.claude/skills/` inside your project
@@ -278,7 +278,7 @@ Cowork uses the same skill folder shape: `~/.claude/skills/<skill-name>/SKILL.md
 Use symlinks if you work on one machine and want updates by pulling the repo.
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git ~/art-paper
+git clone https://example.com/art-paper.git ~/art-paper
 
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
@@ -304,7 +304,7 @@ If you sync `~/.claude/skills` across machines via a cloud folder, use Option B 
 Use copies if you sync `~/.claude/skills` across machines or do not want symlinks. Updates require re-running the four `cp -R` commands.
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git ~/art-paper
+git clone https://example.com/art-paper.git ~/art-paper
 
 mkdir -p ~/.claude/skills
 cp -R ~/art-paper/art-inquiry ~/.claude/skills/art-inquiry
@@ -362,7 +362,7 @@ Use this when you want claude.ai to have access to the repo content — includin
 
 1. Sign in to [claude.ai](https://claude.ai).
 2. Create a new Project: **Projects** → **Create Project**.
-3. Import from GitHub: in the Project, click **Files** → **+** → **GitHub** → select `joonhyungbae/art-paper`.
+3. Import from GitHub: in the Project, click **Files** → **+** → **GitHub** → select `example/art-paper`.
 4. Select the folders/files below.
 
    | Select | Directory / file | Why |
@@ -399,7 +399,7 @@ Method 4a is claude.ai's standard Custom Skill install path: zip each skill fold
 If you still want to try Method 4a despite the limitations above, zip each skill folder so the archive's top-level entry is `<skill-name>/SKILL.md` (not `<skill-name>/<skill-name>/SKILL.md` — that nesting buries the discovery file one level too deep). The `zip -r` commands below produce that shape correctly:
 
 ```bash
-git clone https://github.com/joonhyungbae/art-paper.git art-paper
+git clone https://example.com/art-paper.git art-paper
 cd art-paper
 
 zip -r art-inquiry.zip art-inquiry

@@ -43,4 +43,4 @@ Clean control은 각 case의 독립 footprint이 무엇을 포함하는지에 bo
 - `art-paper` skill의 `citation-check` 모드는 benchmark의 일부인 인용-locator audit 실행
 - `art-reviewer` skill의 integrity-gate 로직은 동일한 inversion rule 사용
 - 전체 instrumentation script는 동반 paper의 reproducibility mirror 내 `eval/instrumentation.py`에 위치
-- 한 case에 benchmark 적용한 worked example은 [Cutting Kim 사례 연구](../examples/cutting-kim-case.md) 참조
+- 한 case에 benchmark 적용한 worked example은 `eval/repro/` 참조

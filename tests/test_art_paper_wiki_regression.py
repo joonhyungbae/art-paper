@@ -100,7 +100,7 @@ def test_no_fork_period_path_in_tracked_files():
 
     Regression guard for the `corpus_expansion/selected_corpus/cases_manifest.json`
     class of bugs found at v0.1.1: tracked JSON / config carrying
-    `/home/jhbae/creative-research-skills/...` paths break after the post-fork
+    `<repo-root>/creative-research-skills/...` paths break after the post-fork
     local rename. Path strings only — the suite name "Creative Research Skills"
     (capitalised) is guarded separately in
     `test_no_creative_research_skills_in_user_facing_wiki`. This test stays in

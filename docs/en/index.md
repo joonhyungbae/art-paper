@@ -23,7 +23,7 @@ This plugin is designed for that gap. Each skill is bounded to assist your autho
 
 ## Quick start
 
-See [Getting started](getting-started.md) for installation and your first run. For a complete walkthrough of the plugin on a single artwork — input pack, firewalled reconstruction, and instrumentation — see [the Cutting Kim case study](examples/cutting-kim-case.md).
+See [Getting started](getting-started.md) for installation and your first run. For a complete walkthrough of the plugin on a single artwork — input pack, firewalled reconstruction, and instrumentation — see the reproducibility notes under `eval/repro/`.
 
 ## Status
 
