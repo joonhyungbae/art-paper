@@ -6,31 +6,21 @@ Double-anonymous review artefacts live under `eval/` and `eval/repro/` only.
 
 - `eval/` metric engine (no pilot full texts)
 - `eval/repro/**` scores, prompts, DOI map, codebook, right-of-reply drafts, seeded-pack author precode
-- This file as the deposit top-level README (rename to `README.md` in the anonymous cut)
+- Deposit top-level `README.md` (this checklist may live here too)
 
 ## Exclude
 
-- Repository-root README / CHANGELOG / maintainer identity
-- Any `[jhb]*` personal notes
+- Repository-root plugin README / CHANGELOG / NOTICE / maintainer identity
+- Personal notes (`[jhb]*`)
 - `eval/pilot/**` full gold / input / reconstruction texts
-- Absolute filesystem paths (use paths relative to the repository root)
-- `art-paper-anon-*.zip` / `_anonymous_cut/` packaging scratch (rebuild fresh)
+- Absolute filesystem paths (repo-relative only)
+- Wiki/docs worked examples and public marketing pages
 
 ## Pre-flight
 
 ```sh
-rg -n '/home/jhbae|Cutting Kim|KAIST' eval/repro || true
+# Expect zero hits for home directories, real names, affiliations, and public maintainer URLs
+rg -n '/home/|github\\.com/.+/.+' eval/repro -g '!ANONYMOUS_MIRROR.md' || true
 ```
 
-Expect zero identity hits in the deposit tree (checklist command lines in this file alone may match the pattern text).
-
-## Build cut (2026-09-10 Path B)
-
-```sh
-# Example: produce /tmp/art-paper-anon-YYYYMMDD then zip
-rsync -a --exclude 'pilot' --exclude '__pycache__' --exclude 'art-paper-anon-*.zip' \
-  eval/ /tmp/art-paper-anon-YYYYMMDD/eval/
-cp eval/repro/ANONYMOUS_MIRROR.md /tmp/art-paper-anon-YYYYMMDD/README.md
-```
-
-Refresh `https://anonymous.4open.science/r/art-paper-BD19/` from that cut before reviewers are pointed at the URL. A packaged zip may sit at `eval/repro/art-paper-anon-*.zip` (gitignored) for editor handoff if the public mirror lags.
+Rebuild the anonymous.4open (or equivalent) mirror from this scrubbed tree before reviewers are pointed at a URL.
