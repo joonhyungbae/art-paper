@@ -1,2 +1,9 @@
 # Outcomes log (JSON Lines). One object per contact attempt.
-# {"case_id":"sa23-10","sent_at":"ISO8601","status":"pending|replied|declined|no_response","note":""}
+# Do not mark status=sent until mail is actually sent.
+{"case_id":"sa24-01","status":"prepared","note":"invitation draft ready; email pending ACM lookup"}
+{"case_id":"sa23-10","status":"prepared","note":"invitation draft ready; email pending ACM lookup"}
+{"case_id":"sa25-14","status":"prepared","note":"invitation draft ready; email pending ACM lookup"}
+{"case_id":"dc22-01","status":"not_yet_reachable","note":"T&F corresponding author not filled"}
+{"case_id":"dc24-02","status":"not_yet_reachable","note":"T&F corresponding author not filled"}
+{"case_id":"dc24-03","status":"not_yet_reachable","note":"T&F corresponding author not filled"}
+{"case_id":"dc24-04","status":"not_yet_reachable","note":"T&F corresponding author not filled"}

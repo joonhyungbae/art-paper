@@ -1,22 +1,24 @@
-# Anonymous review mirror — what to publish
+# Anonymous review mirror — checklist
 
-The live GitHub README/CHANGELOG name the maintainer and the authors' own *Cutting Kim* pilot. **Do not** point double-anonymous reviewers at the full public repo root.
+Double-anonymous review artefacts live under `eval/` and `eval/repro/` only.
 
-## Bundle for anonymous.4open (or equivalent)
+## Include
 
-Include only:
+- `eval/` metric engine (no pilot full texts)
+- `eval/repro/**` scores, prompts, DOI map, codebook, right-of-reply log, seeded-pack tally
+- This file as the deposit top-level README (rename to `README.md` in the anonymous cut)
 
-- `eval/` metric engine (no pilot full texts if gitignored)
-- `eval/repro/**` (scores, prompts, DOI map, codebook, right-of-reply log, seeded-pack tally)
-- This file as top-level `README.md` of the anonymous deposit
+## Exclude
 
-Exclude:
+- Repository-root README / CHANGELOG / maintainer identity
+- Any `[jhb]*` personal notes
+- `eval/pilot/**` full gold / input / reconstruction texts
+- Absolute filesystem paths (use paths relative to the repository root)
 
-- Root `README.md`, `CHANGELOG.md`, maintainer identity
-- Any `[jhb]*` notes
-- `eval/pilot/**` full gold/input/reconstruction texts
-- Wiki / apesuite links that deanonymise
+## Pre-flight
 
-Suggested anonymous README title: “Art-paper reconstruction benchmark — review artefacts (scores and protocol only)”.
+```sh
+rg -n '/home/|Cutting Kim|KAIST' eval/repro || true
+```
 
-Until the anonymous deposit is re-cut, Data availability in the manuscript states that only `eval/` and `eval/repro/` are in scope for review.
+Expect zero identity hits in the deposit tree. Rebuild the anonymous.4open (or equivalent) mirror from this scrubbed tree before reviewers are pointed at a URL.

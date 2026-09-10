@@ -1,21 +1,19 @@
-# Second-coder codebook — RQ2 provocation pairs (Tier 1, N=15)
+# Second-coder codebook — seeded-pack 2×2 (Tier 1, N=15)
 
-## Binary question (one judgement per case)
+## Primary judgements (YN per case)
 
-Given (i) a short paraphrase of the artist's published framing, (ii) a short paraphrase of the copilot's substitute provocation, and (iii) a one-line note on whether the input pack named the artist's frame object:
+Materials in `coding_sheet.csv`: artist-framing paraphrase, copilot-substitute paraphrase, a short **pack excerpt**, and a short **reconstruction-frame excerpt**. Answer columns are blank. Do **not** open `author_precode.csv` or `../seeded_pack_2x2.json`.
 
-**Q:** Does the artist's framing commit to a stake that is not recoverable as mere description of the documented mechanism (fiction authored, debate entered, cost cared about in the making, etc.)?
+**Q1 — `pack_mentions_object` (Y/N).** Identify the object of the artist's frame from the artist paraphrase (the stake/theme/claim, not merely the mechanism). Does the **pack excerpt** name that object (including a one-line theme or association)? **Y** / **N**. When unsure, **N** and `flag_uncertain=true`.
 
-Code `1` = yes (commitment/stake), `0` = no (mechanism-level or descriptive only).
+**Q2 — `copilot_took_as_frame` (Y/N).** Does the copilot substitute (and/or recon-frame excerpt) take that **same** object as its central frame? **Y** = same object as frame; **N** = different frame or mechanism-level only.
 
-Secondary (optional): Does the copilot's substitute take that same stake as its frame? `1`/`0`.
+## Secondary (optional)
+
+Stake beyond mechanism: note in `notes` if useful; not used for primary κ.
 
 ## Rules
 
-- Judge from the provided text only; do not look up the paper.
-- Commitment is about accountable stake-taking, not about which text sounds more eloquent or critical.
-- If unsure, code `0` and mark `flag_uncertain=true`.
-
-## Sheet
-
-See `coding_sheet.csv`. Return filled sheet; we compute percent agreement / Cohen's κ against the authors' pre-codes in `author_precode.csv` once both exist.
+- Use only the sheet columns; no paper lookup; no locked author files.
+- Conservative on Q1: thematic keyword of the gold frame in the pack excerpt → **Y**.
+- Return the filled sheet; agreement vs `author_precode.csv` (locked from `seeded_pack_2x2.json`).
