@@ -13,7 +13,7 @@ Stdlib-only metric engine for instrumenting a art-paper reconstruction against a
 
 The engine is self-tested in `scripts/test_art_paper_eval.py` against the synthetic fixture only — no copyrighted SIGGRAPH Asia paper content lives in this repo.
 
-> Pilot data, per-case extracted inputs, reconstructions, and aggregated results live outside this plugin (see `eval/pilot/sa*/` gitignore entry). The plugin ships only the harness code and the synthetic test fixture.
+> Pilot data, per-case extracted inputs, reconstructions, and aggregated results live outside this plugin (see `eval/pilot/sa*/` gitignore entry). The plugin ships the harness code, the synthetic test fixture, and a **scores-only** reproducibility tree in `eval/repro/` (instrumentation JSON, SHA-256 manifests, case-to-DOI map, Tier 2/control score tables, prompts/hyperparameters).
 
 ## Metrics (`instrumentation.py`)
 
