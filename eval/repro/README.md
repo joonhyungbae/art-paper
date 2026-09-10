@@ -12,11 +12,15 @@ This folder is what Data availability points at beyond the metric engine in `eva
 | `tier1_baseline.json` + `baseline.py` | Input-pack baseline computation snapshot |
 | `tier2/` | Held-out replication score JSON + cases manifest |
 | `case_to_doi.json` / `.csv` | Case/bibkey → DOI or ISEA proceedings locator |
-| `seeded_pack_2x2.json` | Pack-names-object × copilot-took-frame tally |
-| `second_coder/` | Codebook + coding sheet for RQ2 second coder |
-| `right_of_reply/` | Invitation template, contacts stub, outcomes log |
-| `ANONYMOUS_MIRROR.md` | What belongs in the double-anonymous review deposit |
+| `seeded_pack_2x2.json` | Author precode: pack-names-object × copilot-took-frame |
+| `second_coder/` | Codebook + blank coding sheet (independent coding not completed) |
+| `right_of_reply/` | Invitation drafts; outcomes `not_pursued` (outbound not required) |
+| `ANONYMOUS_MIRROR.md` | Double-anonymous deposit checklist + cut build notes |
 | `prompts/` | Host reconstruction prompt excerpt + hyperparameters |
+
+## Path B lock (2026-09-10)
+
+No human second coder for this submission. RQ2 / contribution #3 in the manuscript is an **authorial** reading; do not present `seeded_pack_2x2.json` as inter-rater measurement.
 
 ## What is intentionally not here
 

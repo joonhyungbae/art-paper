@@ -67,3 +67,7 @@ corpus_expansion/
 # Keep them local; the pilot data they feed into is gitignored above.
 *.zip
 *.tar.gz
+
+# anonymous review packaging
+eval/repro/_anonymous_cut/
+eval/repro/art-paper-anon-*.zip
