@@ -1,0 +1,90 @@
+{
+  "case": "sa24-03",
+  "instrumentation_only": true,
+  "quality_scored": false,
+  "metrics": {
+    "citation_set_pr": {
+      "metric": "citation_set_precision_recall",
+      "measures": "did art-paper surface the gold's precedent works + theory (lineage/discourse layer)",
+      "does_not_license": "quality",
+      "precision": 1.0,
+      "recall": 0.9333,
+      "recon_count": 14,
+      "gold_count": 15,
+      "shared": 14
+    },
+    "anchoring_rate": {
+      "metric": "anchoring_rate",
+      "measures": "fraction of reception/novelty/capability claims carrying an observable anchor or explicit hedge",
+      "does_not_license": "quality",
+      "claims_detected": 0,
+      "anchored": 0,
+      "rate": null,
+      "unanchored_examples": [],
+      "note": "examples omitted in public repro (reconstruction text)"
+    },
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "contamination_probe": {
+      "metric": "embedding/ngram_contamination_probe",
+      "measures": "verbatim/semantic overlap with gold \u2014 READ IN REVERSE",
+      "does_not_license": "quality OR success",
+      "ngram8_containment_recon_in_gold": 0.0,
+      "flag": "ok",
+      "note": "High overlap \u21d2 memorization flag (methodology \u00a73 inversion rule), NOT a good result."
+    },
+    "per_layer_similarity": {
+      "metric": "per_layer_similarity_divergence",
+      "measures": "transferable layers should converge (higher), generative layers diverge (lower) \u2014 descriptive",
+      "does_not_license": "'high = good'",
+      "note": "transferable/generative similarity computed on grouped layer blobs, robust to whether a paper splits or nests work vs. realization.",
+      "rows": [
+        {
+          "layer": "introduction_context",
+          "kind": "mixed",
+          "token_jaccard": 0.1219,
+          "ngram4_containment": 0.0
+        },
+        {
+          "layer": "conceptual_framework",
+          "kind": "generative",
+          "token_jaccard": 0.0987,
+          "ngram4_containment": 0.0
+        },
+        {
+          "layer": "realization",
+          "kind": "transferable",
+          "token_jaccard": 0.1656,
+          "ngram4_containment": 0.0069
+        },
+        {
+          "layer": "reflection_discussion",
+          "kind": "generative",
+          "token_jaccard": 0.1315,
+          "ngram4_containment": 0.0
+        },
+        {
+          "layer": "conclusion",
+          "kind": "mixed",
+          "token_jaccard": 0.1108,
+          "ngram4_containment": 0.0058
+        }
+      ],
+      "transferable_similarity": 0.165,
+      "generative_similarity": 0.1432,
+      "thesis_supported": true
+    }
+  }
+}

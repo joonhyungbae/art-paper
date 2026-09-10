@@ -1,0 +1,748 @@
+[
+  {
+    "bibkey": "corpus_altphoto",
+    "title": "Alternative photographic processes reimagined: the role of digital technology",
+    "year": "2023",
+    "venue": "SIGGRAPH Asia 2023 Art Papers",
+    "doi": "10.1145/3610591.3616430",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa23-02"
+  },
+  {
+    "bibkey": "corpus_kandinsky",
+    "title": "Reflection on abstract art through Kandinsky's teaching",
+    "year": "2023",
+    "venue": "SIGGRAPH Asia 2023 Art Papers",
+    "doi": "10.1145/3610591.3616436",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa23-07"
+  },
+  {
+    "bibkey": "corpus_ainushu",
+    "title": "AI N\\",
+    "year": "2023",
+    "venue": "SIGGRAPH Asia 2023 Art Papers",
+    "doi": "10.1145/3610591.3616427",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa23-04"
+  },
+  {
+    "bibkey": "corpus_observer",
+    "title": "When the observer becomes the observed: a critical alternative to environmental sensing",
+    "year": "2025",
+    "venue": "SIGGRAPH Asia 2025 Art Papers",
+    "doi": "10.1145/3757369.3767610",
+    "url": "",
+    "doi_source": "manual-verified",
+    "crossref_candidates": [
+      {
+        "doi": "10.1145/3757369.3767610",
+        "title": "When the observer becomes the observed",
+        "container": "Proceedings of the SIGGRAPH Asia 2025 Art Papers",
+        "score": 39.572456
+      },
+      {
+        "doi": "10.1093/itnow/bwaf134",
+        "title": "When Government IT Becomes Mission Critical",
+        "container": "ITNOW",
+        "score": 26.925755
+      },
+      {
+        "doi": "10.1016/j.ajem.2024.10.045",
+        "title": "What happens to reporting when Bandemia becomes a critical alert?",
+        "container": "The American Journal of Emergency Medicine",
+        "score": 22.890202
+      }
+    ],
+    "case_id": "sa25-09"
+  },
+  {
+    "bibkey": "corpus_ambrotype",
+    "title": "Can AI",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695434",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-03"
+  },
+  {
+    "bibkey": "corpus_knitwork",
+    "title": "KnitworkVR",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695456",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-12"
+  },
+  {
+    "bibkey": "corpus_airays",
+    "title": "AI",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695433",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-01"
+  },
+  {
+    "bibkey": "corpus_sparkles",
+    "title": "City of sparkles: embodying cityscape of human memories",
+    "year": "2025",
+    "venue": "SIGGRAPH Asia 2025 Art Papers",
+    "doi": "10.1145/3757369.3767604",
+    "url": "",
+    "doi_source": "manual-verified",
+    "crossref_title": "City of Sparkles: Embodying Cityscape of Human Memories",
+    "crossref_container": "Proceedings of the SIGGRAPH Asia 2025 Art Papers",
+    "case_id": "sa25-14"
+  },
+  {
+    "bibkey": "corpus_abutting",
+    "title": "Abutting Tokyo",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695437",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-04"
+  },
+  {
+    "bibkey": "corpus_perceive",
+    "title": "How I",
+    "year": "2025",
+    "venue": "SIGGRAPH Asia 2025 Art Papers",
+    "doi": "10.1145/3757369.3767595",
+    "url": "",
+    "doi_source": "manual-verified",
+    "crossref_candidates": [
+      {
+        "doi": "10.2307/jj.20036875.28",
+        "title": "How long, how bright?",
+        "container": "Once When Green",
+        "score": 9.002786
+      },
+      {
+        "doi": "10.5040/9798765113622.ch-4",
+        "title": "‘How Horrible, How Jolly’",
+        "container": "The Nightmare Before Christmas",
+        "score": 8.972957
+      },
+      {
+        "doi": "10.5040/9798765110416.ch-3",
+        "title": "‘How desi, how very Regency’",
+        "container": "Romance Fandom in 21st-Century Pakistan",
+        "score": 8.763224
+      }
+    ],
+    "case_id": "sa25-12"
+  },
+  {
+    "bibkey": "corpus_dance",
+    "title": "Dance montage through style transfer and music generation",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695444",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-10"
+  },
+  {
+    "bibkey": "corpus_finhertip",
+    "title": "FinHERtip",
+    "year": "2025",
+    "venue": "SIGGRAPH Asia 2025 Art Papers",
+    "doi": "10.1145/3757369.3767621",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa25-11"
+  },
+  {
+    "bibkey": "corpus_seesaw",
+    "title": "see-saw: a kinetic installation that unfolds in silence driven by liquid flow",
+    "year": "2023",
+    "venue": "SIGGRAPH Asia 2023 Art Papers",
+    "doi": "10.1145/3610591.3616434",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa23-10"
+  },
+  {
+    "bibkey": "corpus_fungal",
+    "title": "Exploring fungal morphology simulation and dynamic light containment from a graphics generation perspective",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695440",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-15"
+  },
+  {
+    "bibkey": "corpus_echovision",
+    "title": "Becoming bats with ``EchoVision",
+    "year": "2024",
+    "venue": "SIGGRAPH Asia 2024 Art Papers",
+    "doi": "10.1145/3680530.3695460",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "sa24-18"
+  },
+  {
+    "bibkey": "corpus_isea22_01",
+    "title": "The cabinet of Wolfgang von Kempelen",
+    "year": "2022",
+    "venue": "Proceedings of the 27th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.24053/9783739880211-0-9",
+        "title": "Geleitwort von Wolfgang Sobotka",
+        "container": "Gärten und ihre Gäste",
+        "score": 20.62643
+      },
+      {
+        "doi": "10.5771/9783741001796-7",
+        "title": "Vorwort von Wolfgang Schroeder",
+        "container": "Was Europa kann",
+        "score": 20.48323
+      },
+      {
+        "doi": "10.5771/9783967076257",
+        "title": "Das Orgelwerk von Wolfgang Rihm",
+        "container": "",
+        "score": 19.46326
+      }
+    ],
+    "case_id": "isea22-01",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2022,
+      "title": "The Cabinet of Wolfgang von Kempelen: AI Art and Creative Agency",
+      "pages": "315-322",
+      "mega_pdf": "isea/isea2022.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_02",
+    "title": "Monuments to the pluriverse: a transfronteriza nepantlera's approach to rasquache anticolonial artisanal or utilitarian new media art production",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.5040/9781474207935.011",
+        "title": "New Media Art",
+        "container": "The Bloomsbury Encyclopedia of New Media Art",
+        "score": 22.640385
+      },
+      {
+        "doi": "10.4324/9781003354840-7",
+        "title": "New Media Art",
+        "container": "An Introduction to the Making of Western Art",
+        "score": 22.629461
+      },
+      {
+        "doi": "10.1007/978-3-031-23161-2_300840",
+        "title": "New Media Art Work",
+        "container": "Encyclopedia of Computer Graphics and Games",
+        "score": 21.549894
+      }
+    ],
+    "case_id": "isea24-02",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "MONUMENTS TO THE PLURIVERSE: A transfronteriza nepantlera’s approach to rasquache anticolonial artisanal or utilitarian new media art production. By Liliana Conlisk Gallegos.",
+      "pages": "182-190",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_03",
+    "title": "Quadrupedal robots as extensions of canine racial violence",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.1002/aisy.202300633",
+        "title": "Accessorizing Quadrupedal Robots with Wearable Electronics",
+        "container": "Advanced Intelligent Systems",
+        "score": 24.382748
+      },
+      {
+        "doi": "10.1109/cac63892.2024.10865795",
+        "title": "Straight-Line Autonomous Walking for Quadrupedal Robots",
+        "container": "2024 China Automation Congress (CAC)",
+        "score": 23.502476
+      },
+      {
+        "doi": "10.1109/icra57147.2024.10610440",
+        "title": "Learning Highly Dynamic Behaviors for Quadrupedal Robots",
+        "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+        "score": 23.389826
+      }
+    ],
+    "case_id": "isea24-03",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "Quadrupedal Robots as Extensions of Canine Racial Violence. By None Jimi DePriest.",
+      "pages": "206-213",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_04",
+    "title": "We are the clouds: blending interaction and participation in urban media art",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.4324/9781032668802-7",
+        "title": "Art participation",
+        "container": "Aesthetics of Participation",
+        "score": 19.950974
+      },
+      {
+        "doi": "10.1080/10670564.2024.2319065",
+        "title": "Empathetic Solidarity: How Chinese English-Language Media Portrays Urban Community Participation",
+        "container": "Journal of Contemporary China",
+        "score": 18.574545
+      },
+      {
+        "doi": "10.7551/mitpress/11213.003.0007",
+        "title": "Art of Stereoscopy: Blending Technology and Illusion",
+        "container": "Seeing Red",
+        "score": 18.531237
+      }
+    ],
+    "case_id": "isea24-04",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "We Are The Clouds: Blending Interaction and Participation in Urban Media Art. By Varvara Guljajeva and Mar Canet Sola.",
+      "pages": "301-307",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_05",
+    "title": "A practitioner's objects: reflections on a slow data practice",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.1007/978-3-031-59956-9_8",
+        "title": "Practitioner Reflections on the Use of Formulation in Mental Health Nursing Practice",
+        "container": "Formulation in Mental Health Nursing",
+        "score": 21.412968
+      },
+      {
+        "doi": "10.12968/bjmh.2023.0029",
+        "title": "Practice-near practitioner research",
+        "container": "British Journal of Mental Health Nursing",
+        "score": 19.747534
+      },
+      {
+        "doi": "10.2307/jj.12348194.15",
+        "title": "Reflections from Practice:",
+        "container": "Mental Capacity Law, Sexual Relationships, and Intimacy",
+        "score": 18.440657
+      }
+    ],
+    "case_id": "isea24-05",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "A Practitioner’s Objects: Reflections on a Slow Data Practice. By Chuan Khoo.",
+      "pages": "399-406",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_06",
+    "title": "When the past technology comes to the future wearable technology: speculative art project Lock at First Sight",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.1063/10.0034536",
+        "title": "Surveying the future of wearable sensor technology",
+        "container": "Scilight",
+        "score": 28.502113
+      },
+      {
+        "doi": "10.1177/09760016241256202",
+        "title": "Medical Education Technology: Past, Present and Future",
+        "container": "Apollo Medicine",
+        "score": 27.489105
+      },
+      {
+        "doi": "10.1016/j.iref.2024.03.032",
+        "title": "Financial technology research: Past and future trajectories",
+        "container": "International Review of Economics &amp; Finance",
+        "score": 27.489105
+      }
+    ],
+    "case_id": "isea24-06",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "When the Past Technology Comes to the Future Wearable Technology: Speculative Art Project Lock at First Sight (2020). By Minso Kim.",
+      "pages": "417-424",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_07",
+    "title": "Practices of prediction: tarot as a lens for disrupting ML",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.1109/mac61551.2024.10837131",
+        "title": "ML-inspired Luneburg Lens Design",
+        "container": "2024 Second International Conference on Microwave, Antenna and Communication (MAC)",
+        "score": 20.69144
+      },
+      {
+        "doi": "10.2307/jj.9345408.7",
+        "title": "Tarot Cards",
+        "container": "Occult Hunting and Supernatural Play in Japan",
+        "score": 19.89286
+      },
+      {
+        "doi": "10.1109/indicon63790.2024.10958484",
+        "title": "ML-powered Multishell Luneburg Lens Design",
+        "container": "2024 IEEE 21st India Council International Conference (INDICON)",
+        "score": 19.832058
+      }
+    ],
+    "case_id": "isea24-07",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "Practices of Prediction: Tarot as a Lens for Disrupting ML Eventfulness. By  Chloe McFadden.",
+      "pages": "521-530",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_08",
+    "title": "Your data body",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.14236/ewic/eva2024.44",
+        "title": "Your Data Body",
+        "container": "Electronic Workshops in Computing",
+        "score": 24.546871
+      },
+      {
+        "doi": "10.2307/jj.5736191.6",
+        "title": "Your Body",
+        "container": "Cancer Sucks, but You’ll Get Through It",
+        "score": 19.274757
+      },
+      {
+        "doi": "10.7560/329306-013",
+        "title": "Your body knows",
+        "container": "Grief is a Sneaky Bitch",
+        "score": 18.30011
+      }
+    ],
+    "case_id": "isea24-08",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "Your Data Body. By Marilene Oliver and Scott Smallwood.",
+      "pages": "557-563",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_09",
+    "title": "The future is here: listening to space",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.1007/978-3-031-60990-9_11",
+        "title": "Future Is Here",
+        "container": "International Oil Markets in the Age of Climate Change",
+        "score": 20.237324
+      },
+      {
+        "doi": "10.4324/9781003183655-6",
+        "title": "‘Here Time Becomes Space’",
+        "container": "Return to Riemann",
+        "score": 19.599829
+      },
+      {
+        "doi": "10.5040/9798765104606.ch-006",
+        "title": "Listening from Outer Space",
+        "container": "Geosonics",
+        "score": 19.30008
+      }
+    ],
+    "case_id": "isea24-09",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "The future is here: Listening to space.. By Sol Rezza.",
+      "pages": "632-637",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_10",
+    "title": "The first room: an artistic expression combining traditional Chinese",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.62227/as/74s116",
+        "title": "Analysis of the Artistic Expression Ability of Traditional Chinese Elements in Modern Visual Communication",
+        "container": "Archives des Sciences",
+        "score": 24.64785
+      },
+      {
+        "doi": "10.1051/shsconf/202418301016",
+        "title": "The Artistic Expression and Integration of Traditional Culture in Traditional Chinese Medicine Art: Innovative Paths and Practical Exploration",
+        "container": "SHS Web of Conferences",
+        "score": 24.23296
+      },
+      {
+        "doi": "10.69648/swww7235",
+        "title": "Art Redefined: AI's Influence on Traditional Artistic Expression",
+        "container": "International Journal of Art and Design",
+        "score": 23.733597
+      }
+    ],
+    "case_id": "isea24-10",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "The First Room: An artistic expression combining traditional Chinese IChing culture and EEG technology. By Mingdong Song, Xindi Kang and Varvara Guljajeva.",
+      "pages": "703-706",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_11",
+    "title": "DB",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.25144/19624",
+        "title": "DB(ELC) -  A PROPOSAL TO MODIFY THE DB(A)",
+        "container": "NOISE CONTROL - THE NEXT 25 YEARS",
+        "score": 13.797689
+      },
+      {
+        "doi": "10.1007/979-8-8688-0294-2_8",
+        "title": "Helidon DB Client",
+        "container": "Helidon Revealed",
+        "score": 13.541482
+      },
+      {
+        "doi": "10.32725/jab.2024.009",
+        "title": "Myo-inositol rescued insulin resistance and dyslipidemia in db/db mice",
+        "container": "Journal of Applied Biomedicine",
+        "score": 13.3069515
+      }
+    ],
+    "case_id": "isea24-11",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "DB: web art archive of multimedia labs for gender equality.. By Teresa Veiga Furtado.",
+      "pages": "765-772",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_isea24_12",
+    "title": "Use subjectivity as a curatorial method in space art",
+    "year": "2024",
+    "venue": "Proceedings of the 29th International Symposium on Electronic Art ({ISEA",
+    "doi": "",
+    "url": "",
+    "doi_source": "isea-proceedings-locator",
+    "crossref_candidates": [
+      {
+        "doi": "10.61173/80y4ke28",
+        "title": "The Influence of Curatorial Art on Visual Art",
+        "container": "Arts, Culture and Language",
+        "score": 22.913816
+      },
+      {
+        "doi": "10.1080/00043249.2024.2317692",
+        "title": "The Curatorial Art of Karin Higa",
+        "container": "Art Journal",
+        "score": 22.534464
+      },
+      {
+        "doi": "10.2307/jj.18197629.21",
+        "title": "Curatorial Agency at Véhicule Art Inc.:",
+        "container": "Resistant Practices in Communities of Sound",
+        "score": 22.35878
+      }
+    ],
+    "case_id": "isea24-12",
+    "locator": {
+      "venue": "ISEA",
+      "year": 2024,
+      "title": "Use Subjectivity as a Curatorial Method in Space Art. By You Wang and Kang Zhang.",
+      "pages": "789-794",
+      "mega_pdf": "isea/isea2024.pdf"
+    }
+  },
+  {
+    "bibkey": "corpus_leo22_01",
+    "title": "The politics of visual indeterminacy in abstract AI",
+    "year": "2023",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02291",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo22-01"
+  },
+  {
+    "bibkey": "corpus_leo22_02",
+    "title": "StellarScape",
+    "year": "2023",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02309",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo22-02"
+  },
+  {
+    "bibkey": "corpus_leo22_03",
+    "title": "Topological vision: the artistic thinking of Shigeru Onishi",
+    "year": "2023",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02311",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo22-03"
+  },
+  {
+    "bibkey": "corpus_leo23_04",
+    "title": "SoundRunner",
+    "year": "2023",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02399",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo23-04"
+  },
+  {
+    "bibkey": "corpus_leo23_05",
+    "title": "Living Capsules",
+    "year": "2024",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02466",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo23-05"
+  },
+  {
+    "bibkey": "corpus_leo24_06",
+    "title": "Exploring the materiality of augmented reality markers through arts-led cocreation",
+    "year": "2024",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02542",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo24-06"
+  },
+  {
+    "bibkey": "corpus_leo24_07",
+    "title": "Deliberate maladjustment by microorganisms: a medium for images or luminous bacteria",
+    "year": "2024",
+    "venue": "Leonardo",
+    "doi": "10.1162/leon_a_02593",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "leo24-07"
+  },
+  {
+    "bibkey": "corpus_dc22_01",
+    "title": "Musical creativity support tools for bereavement support",
+    "year": "2022",
+    "venue": "Digital Creativity",
+    "doi": "10.1080/14626268.2022.2034648",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "dc22-01"
+  },
+  {
+    "bibkey": "corpus_dc24_02",
+    "title": "Designing with words: exploring the integration of text-to-image models in industrial design",
+    "year": "2024",
+    "venue": "Digital Creativity",
+    "doi": "10.1080/14626268.2024.2411223",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "dc24-02"
+  },
+  {
+    "bibkey": "corpus_dc24_03",
+    "title": "Space shaping in the design process for creative coding: a case study in media multiplicities",
+    "year": "2024",
+    "venue": "Digital Creativity",
+    "doi": "10.1080/14626268.2023.2299445",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "dc24-03"
+  },
+  {
+    "bibkey": "corpus_dc24_04",
+    "title": "Networking concert halls, musicians, and interactive textiles: Interwoven Sound Spaces",
+    "year": "2024",
+    "venue": "Digital Creativity",
+    "doi": "10.1080/14626268.2024.2311906",
+    "url": "",
+    "doi_source": "bib",
+    "case_id": "dc24-04"
+  }
+]

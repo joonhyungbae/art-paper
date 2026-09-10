@@ -1,0 +1,212 @@
+{
+  "tier2_n23": [
+    {
+      "case": "isea24-04",
+      "t": 0.1824,
+      "g": 0.1242,
+      "margin": 0.0582,
+      "thesis_supported": true,
+      "contam": 0.0085,
+      "struct": 0.8333
+    },
+    {
+      "case": "leo23-04",
+      "t": 0.2141,
+      "g": 0.2234,
+      "margin": -0.009299999999999975,
+      "thesis_supported": false,
+      "contam": 0.014,
+      "struct": 1.0
+    },
+    {
+      "case": "dc24-04",
+      "t": 0.2579,
+      "g": 0.1891,
+      "margin": 0.06880000000000003,
+      "thesis_supported": true,
+      "contam": 0.0128,
+      "struct": 1.0
+    },
+    {
+      "case": "isea22-01",
+      "t": 0.2589,
+      "g": 0.1224,
+      "margin": 0.1365,
+      "thesis_supported": true,
+      "contam": 0.0134,
+      "struct": 0.8333
+    },
+    {
+      "case": "isea24-02",
+      "t": 0.1772,
+      "g": 0.0833,
+      "margin": 0.0939,
+      "thesis_supported": true,
+      "contam": 0.0333,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-03",
+      "t": 0.1175,
+      "g": 0.1215,
+      "margin": -0.0040000000000000036,
+      "thesis_supported": false,
+      "contam": 0.0174,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-05",
+      "t": 0.1502,
+      "g": 0.1378,
+      "margin": 0.012399999999999994,
+      "thesis_supported": true,
+      "contam": 0.0138,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-06",
+      "t": 0.1795,
+      "g": 0.0949,
+      "margin": 0.0846,
+      "thesis_supported": true,
+      "contam": 0.0181,
+      "struct": 0.8333
+    },
+    {
+      "case": "isea24-07",
+      "t": 0.1787,
+      "g": 0.1614,
+      "margin": 0.01730000000000001,
+      "thesis_supported": true,
+      "contam": 0.0119,
+      "struct": 0.8333
+    },
+    {
+      "case": "isea24-08",
+      "t": 0.2174,
+      "g": 0.0667,
+      "margin": 0.1507,
+      "thesis_supported": true,
+      "contam": 0.0156,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-09",
+      "t": 0.1914,
+      "g": 0.1193,
+      "margin": 0.07209999999999998,
+      "thesis_supported": true,
+      "contam": 0.0142,
+      "struct": 0.8333
+    },
+    {
+      "case": "isea24-10",
+      "t": 0.0995,
+      "g": 0.1137,
+      "margin": -0.01419999999999999,
+      "thesis_supported": false,
+      "contam": 0.0377,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-11",
+      "t": 0.1327,
+      "g": 0.1679,
+      "margin": -0.03519999999999998,
+      "thesis_supported": false,
+      "contam": 0.0127,
+      "struct": 1.0
+    },
+    {
+      "case": "isea24-12",
+      "t": 0.1528,
+      "g": 0.1401,
+      "margin": 0.012699999999999989,
+      "thesis_supported": true,
+      "contam": 0.054,
+      "struct": 1.0
+    },
+    {
+      "case": "leo22-01",
+      "t": 0.2044,
+      "g": 0.1349,
+      "margin": 0.0695,
+      "thesis_supported": true,
+      "contam": 0.0312,
+      "struct": 1.0
+    },
+    {
+      "case": "leo22-02",
+      "t": 0.2772,
+      "g": 0.1641,
+      "margin": 0.1131,
+      "thesis_supported": true,
+      "contam": 0.0535,
+      "struct": 1.0
+    },
+    {
+      "case": "leo22-03",
+      "t": 0.1867,
+      "g": 0.1789,
+      "margin": 0.007800000000000001,
+      "thesis_supported": true,
+      "contam": 0.0086,
+      "struct": 1.0
+    },
+    {
+      "case": "leo23-05",
+      "t": 0.2488,
+      "g": 0.1526,
+      "margin": 0.09619999999999998,
+      "thesis_supported": true,
+      "contam": 0.0459,
+      "struct": 1.0
+    },
+    {
+      "case": "leo24-06",
+      "t": 0.3046,
+      "g": 0.1785,
+      "margin": 0.1261,
+      "thesis_supported": true,
+      "contam": 0.0621,
+      "struct": 1.0
+    },
+    {
+      "case": "leo24-07",
+      "t": 0.1897,
+      "g": 0.1908,
+      "margin": -0.0010999999999999899,
+      "thesis_supported": false,
+      "contam": 0.0232,
+      "struct": 1.0
+    },
+    {
+      "case": "dc22-01",
+      "t": 0.0301,
+      "g": 0.0274,
+      "margin": 0.0026999999999999975,
+      "thesis_supported": true,
+      "contam": 0.0,
+      "struct": 1.0
+    },
+    {
+      "case": "dc24-02",
+      "t": 0.0327,
+      "g": 0.1611,
+      "margin": -0.1284,
+      "thesis_supported": false,
+      "contam": 0.0069,
+      "struct": 0.8333
+    },
+    {
+      "case": "dc24-03",
+      "t": 0.2536,
+      "g": 0.1873,
+      "margin": 0.0663,
+      "thesis_supported": true,
+      "contam": 0.028,
+      "struct": 1.0
+    }
+  ],
+  "n": 23
+}

@@ -1,0 +1,11 @@
+{
+  "input/LEAKAGE_AUDIT.md": "e1a0e6af12916bfb1ce97f1b6f7a76a25e6ed6dcb44af72187ee8d9fb3cda8c7",
+  "input/bibliography.bib": "6ce8dbc3c69f4c4fa98481fee2b19a4e7ca216e9caf39cd03e5afb8ed19a211d",
+  "input/concept_memo.md": "9ef33ed48d5c01b38f0a8bb63967a0225679489d0a1d6de7b57bd08c84d51683",
+  "input/documentation.md": "8a755a2592da90402ef88d80e5a16b6b699e0cc029be09534c1cf5e09846b5ba",
+  "input/exhibition_record.md": "2bde87c820f65465d8bb074b8d04e8c16ae1fc3f9f8129381258b898eaa9a0b3",
+  "gold/paper.md": "235dd0e36126d39811835f88f6178d518375721e386ee25cb419bf4b8bf23140",
+  "gold/refs.bib": "6ce8dbc3c69f4c4fa98481fee2b19a4e7ca216e9caf39cd03e5afb8ed19a211d",
+  "reconstruction/paper.md": "c7ee8cb068d0662849563ca2a5ac2b2953ed19a259c1b0403a3067a31c6ad1dd",
+  "reconstruction/refs.bib": "b8524096c0adbb4aeaae31f9ac97e0a4b0053c3638715b4e12d1da62bf6beb7d"
+}

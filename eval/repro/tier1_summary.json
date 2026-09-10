@@ -1,0 +1,376 @@
+[
+  {
+    "case": "sa23-02",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.1373,
+    "generative_similarity": 0.1594,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": false
+  },
+  {
+    "case": "sa23-04",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.3841,
+    "generative_similarity": 0.1552,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa23-07",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.2486,
+    "generative_similarity": 0.1375,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa23-10",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.3647,
+    "generative_similarity": 0.106,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa23-10-clean",
+    "source": "regenerated",
+    "transferable_similarity": 0.1344,
+    "generative_similarity": 0.1328,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-01",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.3322,
+    "generative_similarity": 0.1482,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-03",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.165,
+    "generative_similarity": 0.1432,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-04",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.3699,
+    "generative_similarity": 0.1101,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-10",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.0855,
+    "generative_similarity": 0.1363,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": false
+  },
+  {
+    "case": "sa24-12",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.4054,
+    "generative_similarity": 0.1164,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-15",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.1477,
+    "generative_similarity": 0.1173,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-18",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.2399,
+    "generative_similarity": 0.1158,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa24-18-clean",
+    "source": "regenerated",
+    "transferable_similarity": 0.1276,
+    "generative_similarity": 0.0889,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa25-09",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.2495,
+    "generative_similarity": 0.1946,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa25-11",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.4882,
+    "generative_similarity": 0.1864,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa25-12",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.2911,
+    "generative_similarity": 0.1382,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  },
+  {
+    "case": "sa25-14",
+    "source": "copied-art-project",
+    "transferable_similarity": 0.3152,
+    "generative_similarity": 0.156,
+    "contamination_8gram": null,
+    "structural_coverage": {
+      "metric": "structural_coverage",
+      "measures": "did the output produce the expected Pattern-1 layers",
+      "does_not_license": "quality",
+      "present": {
+        "introduction_context": true,
+        "conceptual_framework": true,
+        "the_work": true,
+        "realization": true,
+        "reflection_discussion": true,
+        "conclusion": true
+      },
+      "coverage": 1.0
+    },
+    "thesis_supported": true
+  }
+]
