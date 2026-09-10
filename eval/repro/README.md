@@ -12,6 +12,10 @@ This folder is what Data availability points at beyond the metric engine in `eva
 | `tier1_baseline.json` + `baseline.py` | Input-pack baseline computation snapshot |
 | `tier2/` | Held-out replication score JSON + cases manifest |
 | `case_to_doi.json` / `.csv` | Case/bibkey → DOI or ISEA proceedings locator |
+| `seeded_pack_2x2.json` | Pack-names-object × copilot-took-frame tally |
+| `second_coder/` | Codebook + coding sheet for RQ2 second coder |
+| `right_of_reply/` | Invitation template, contacts stub, outcomes log |
+| `ANONYMOUS_MIRROR.md` | What belongs in the double-anonymous review deposit |
 | `prompts/` | Host reconstruction prompt excerpt + hyperparameters |
 
 ## What is intentionally not here

@@ -1,0 +1,2 @@
+# Outcomes log (JSON Lines). One object per contact attempt.
+# {"case_id":"sa23-10","sent_at":"ISO8601","status":"pending|replied|declined|no_response","note":""}

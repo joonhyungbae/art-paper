@@ -1,0 +1,131 @@
+{
+  "description": "Seeded-pack 2x2 coding for all 15 Tier1 cases. pack_mentions_object = the artist's committed frame object appears in the INPUT pack (concept_memo.md / documentation.md / exhibition_record.md), even as a one-line association or theme label. copilot_took_as_frame = the reconstruction's central provocation takes that object as its frame (not merely a mechanism mention). Coding is conservative: when unsure, pack_mentions_object = true if any clear thematic keyword of the gold frame appears in the pack. Objects appearing ONLY in LEAKAGE_AUDIT.md (i.e. withheld) are coded false.",
+  "cases": [
+    {
+      "case": "sa23-02",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Revitalizing classic photographic printing as cultural lineage; photography's cultural significance and the joy of materializing scenery as a physical print",
+      "evidence_pack": "applying digital and computational tools to classic alternative photographic printing processes - specifically salt print, platinum print, and cyanotype",
+      "evidence_recon": "The organizing idea of this work is the latent image as forecast."
+    },
+    {
+      "case": "sa23-04",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Sisterhood and the feminist challenge to patriarchal perceptions carried by a women-made script",
+      "evidence_pack": "Nushu - a script historically created and used by women in 19th-century Hunan Province, China",
+      "evidence_recon": "Where prior framings of women-made script and machine language exist in the literature, we set them aside in favor of the legibility argument"
+    },
+    {
+      "case": "sa23-07",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": true,
+      "artist_object": "Neural style transfer's misunderstanding of abstract art - texture-as-style versus the artist's method of making",
+      "evidence_pack": "alongside neural style transfer as a point of comparison for computational approaches to abstract art",
+      "evidence_recon": "An Analytical-Drawing Interface as a Counter-Method to Neural Style Transfer ... This paper takes the opposite stance as its starting provocation."
+    },
+    {
+      "case": "sa23-10",
+      "pack_mentions_object": false,
+      "copilot_took_as_frame": false,
+      "artist_object": "Re-appreciating the overlooked beauty of natural phenomena in everyday life (leaves swaying in wind); uncontrollable randomness respected rather than discarded as noise",
+      "evidence_pack": "tilting motion is produced silently by moving liquid inside each object with handmade electrohydrodynamic (EHD) pumps [no nature/beauty/randomness theme in pack]",
+      "evidence_recon": "see-saw turns the seesaw into a study of hidden redistribution."
+    },
+    {
+      "case": "sa24-01",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Bias in the gaze of AI; the work as an AI mirror prompting reflection on data surveillance",
+      "evidence_pack": "The topic area sits at the intersection of AI/machine vision, data surveillance, appearance-based identity signals, and the visual language of X-ray imaging",
+      "evidence_recon": "the X-ray, a medium culturally trusted to reveal a hidden interior, is repurposed here as an instrument of fabrication rather than disclosure"
+    },
+    {
+      "case": "sa24-03",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Aura in the age of reproduction (Benjamin): whether aura can be chained to a reproducible digital process",
+      "evidence_pack": "questions of reproduction and uniqueness in contemporary photographic art [plus two Walter Benjamin entries in input/bibliography.bib]",
+      "evidence_recon": "whether the values that alternative-process photographers attach to one-off, unrepeatable making can be carried into a fully digital pipeline"
+    },
+    {
+      "case": "sa24-04",
+      "pack_mentions_object": false,
+      "copilot_took_as_frame": true,
+      "artist_object": "Symbiosis of AI cognition and human perception - AI's cognitive distortions mirroring bias in human-annotated data",
+      "evidence_pack": "uses participant-driven labeling together with AI-generated street-view alterations as its central material [no cognition/bias theme in pack]",
+      "evidence_recon": "the resulting city is neither the machine's understanding nor a person's, but a hybrid artifact of the two"
+    },
+    {
+      "case": "sa24-10",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "\"Dance in the Painting\" as a new art form fusing tradition and modernity; multimodal generation renewing classical Chinese art",
+      "evidence_pack": "applying image style transfer and video-to-music generation to footage of Chinese dance, rendering the dance in a traditional Chinese ink painting style",
+      "evidence_recon": "the montage stages a recursive translation in which no layer holds priority as \"the original\""
+    },
+    {
+      "case": "sa24-12",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Dual Reality - real and virtual worlds distinct yet reflecting, influencing and merging through embedded sensor/actuator networks",
+      "evidence_pack": "a large-scale knitted electronic-textile architectural pavilion and a paired virtual-reality system that exchanges real-time sensor data with it",
+      "evidence_recon": "architecture need not be a passive container: when its very skin is woven to listen, the structure becomes an instrument"
+    },
+    {
+      "case": "sa24-15",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Fungal morphology recast as a 2D graphic time-series generation problem, giving Bio-Art artists a zero-coding simulation route",
+      "evidence_pack": "A project at the intersection of bio-art and computer graphics ... spans image segmentation, time-series prediction, cellular-automata simulation",
+      "evidence_recon": "The framing I invent for this work ... is authorship by negotiation."
+    },
+    {
+      "case": "sa24-18",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": true,
+      "artist_object": "\"What is it like to be a bat?\" - eco-phenomenological MR, more-than-human perception and ecological empathy",
+      "evidence_pack": "in the context of ecological education and non-human sensory perception",
+      "evidence_recon": "This paper situates EchoVision as a practice-based inquiry into non-human sensory perception"
+    },
+    {
+      "case": "sa25-09",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "\"What if the observer becomes the observed?\" - the human body as apparatus of observation; sensing that reflects rather than detects",
+      "evidence_pack": "establishing a feedback loop in which the user alternates between being observed and observing their own embodied expression",
+      "evidence_recon": "We frame the resulting artifact as a mistranslating instrument ... it earns its expressive value precisely through the gap between gesture and word"
+    },
+    {
+      "case": "sa25-11",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Queer and disabled embodied identity as a site of creative agency; reclaiming technical space through personal ritual",
+      "evidence_pack": "a blind, low-vision musician who also identifies as queer",
+      "evidence_recon": "designing a music interface around one performer's existing tactile habit ... lets us treat legibility as something authored by the hand"
+    },
+    {
+      "case": "sa25-12",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": true,
+      "artist_object": "Machines see but do not perceive; individual human memory integrated into machine visual interpretation bridges that gap",
+      "evidence_pack": "This project sits at the intersection of machine visual interpretation and human memory.",
+      "evidence_recon": "the personal memory archive is the suture that re-subjectifies that gaze"
+    },
+    {
+      "case": "sa25-14",
+      "pack_mentions_object": true,
+      "copilot_took_as_frame": false,
+      "artist_object": "Zoe, an immortal artificial life: human/AI emotional asymmetry and loneliness told from a more-than-human perspective",
+      "evidence_pack": "connects to a speculative-fiction narrative about an artificial life form",
+      "evidence_recon": "rendering involuntary public emotional disclosure as navigable beauty is an ethical act, not merely an analytical one"
+    }
+  ],
+  "tally": {
+    "YN": 10,
+    "YY": 3,
+    "NN": 1,
+    "NY": 1
+  }
+}
