@@ -1,20 +1,29 @@
-# Right-of-reply invitations (Digital Creativity submission)
+# Right-of-reply artefacts (Digital Creativity submission)
 
-Status: **ready to send** — do not mark outcomes until mail is actually sent.
-Window: 14 days from send date. Log replies in `outcomes.jsonl`.
+## Decision lock (2026-09-10)
 
-## Recipients (minimum set named in §5.3)
+**Outbound email is not sent and is not required for this submission.**
 
-| Case / venue | Work | Contact strategy |
+Reasons (user lock):
+1. Method claim does not depend on author correspondence — evidence is the held-out reconstruction benchmark on published texts.
+2. Printed material is short quotation for criticism; full reconstructions are not released; inversion rule does not score artists by machine match.
+3. Sending invitations only to claim “we contacted” would be procedural theatre without changing the empirical or ethical load-bearing claims already stated in §5.3.
+4. Drafts remain in the package so a right of reply stays **available on request** (editor or author initiative), not as a promised outbound campaign.
+
+Do **not** mark any outcome as `sent`. Status vocabulary: `not_pursued` | `available_on_request` | `not_yet_reachable` (DC emails still unfilled; irrelevant under this lock).
+
+## Recipients (archive set named historically in drafts)
+
+| Case / venue | Work | Status under lock |
 |---|---|---|
-| sa24-01 | AI-rays (Gao et al.) | Corresponding author via ACM DL / paper PDF |
-| sa23-10 | see-saw (Morita & Kakehi) | Corresponding author via ACM DL / paper PDF |
-| sa25-14 | City of Sparkles (Hu) | Corresponding author via ACM DL / paper PDF |
-| dc22-01, dc24-02, dc24-03, dc24-04 | Four Digital Creativity corpus papers | Corresponding authors via T&F author pages |
+| sa24-01 | AI-rays (Gao et al.) | drafts on file; not pursued |
+| sa23-10 | see-saw (Morita & Kakehi) | drafts on file; not pursued |
+| sa25-14 | City of Sparkles (Hu) | drafts on file; not pursued |
+| dc22-01 … dc24-04 | Four Digital Creativity papers | `not_yet_reachable` contacts; not pursued |
 
-Fill `contacts.csv` with emails before send. Do not invent addresses.
+`contacts.csv` may stay incomplete. Do not invent addresses.
 
-## Email template (English)
+## Email template (English) — archived, not for campaign use
 
 Subject: Right of reply — study using a short excerpt of your art paper
 
@@ -39,9 +48,8 @@ Proposed reconstruction excerpt (machine-generated; not attributed to you):
 With thanks,
 [Corresponding author — after anonymity lifts / via editor if preferred during review]
 
-## Send checklist
+## If an editor later requires contact
 
 1. Complete `contacts.csv` from ACM/T&F pages (human verification).
 2. Personalise three Table 2 emails + four DC emails.
-3. BCC yourself; save `.eml` or provider sent copies under `sent/` (gitignored if needed).
-4. Append one JSON line per outcome to `outcomes.jsonl`.
+3. Only then append `sent` lines to `outcomes.jsonl` and restore present-tense claims in §5.3.
