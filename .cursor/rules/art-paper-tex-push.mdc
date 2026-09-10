@@ -1,0 +1,9 @@
+---
+description: When editing art-paper_paper LaTeX, always commit and push
+globs: "art-paper_paper/**/*.{tex,bib,bst}"
+alwaysApply: true
+---
+
+# art-paper manuscript: push on every tex change
+
+The submission manuscript lives in `art-paper_paper/` (separate git repo). Whenever you change files there—especially `**/*.tex`, `references.bib`, tables, figures, supplementary—**commit in that repo immediately**. The `post-commit` hook pushes `main` to `origin`. Done means local HEAD matches `origin/main`. Surface push failures to the user. Do not wait to be asked to commit manuscript edits.
