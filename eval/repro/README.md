@@ -11,7 +11,6 @@ This folder is what Data availability points at beyond the metric engine in `eva
 | `tier1_table1_from_manuscript.csv` | Table 1 numbers as published (incl. input-pack baseline columns) |
 | `tier1_baseline.json` + `baseline.py` | Input-pack baseline computation snapshot |
 | `tier2/` | Held-out replication score JSON + cases manifest |
-| `control/` | Control N=6 score JSON (**bibliographic DOIs not recovered in-repo** — see `UNRESOLVED.md`) |
 | `case_to_doi.json` / `.csv` | Case/bibkey → DOI or ISEA proceedings locator |
 | `prompts/` | Host reconstruction prompt excerpt + hyperparameters |
 

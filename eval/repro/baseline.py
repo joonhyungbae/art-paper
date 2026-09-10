@@ -64,11 +64,9 @@ print("mean contam recon-in-gold", round(st.mean(r["contam_recon_in_gold"] for r
 print("mean gold_in_input", round(st.mean(r["gold_in_input"] for r in rows),4))
 a=[r["anchoring"] for r in rows if r["anchoring"] is not None]; print("anchoring mean", round(st.mean(a),3), "n", len(a), "claims", sum(r["claims"] for r in rows))
 
-# Tier 2 + control tallies from aggregate JSON
+# Tier 2 tallies from aggregate JSON
 t2 = json.load(open("/home/jhbae/art-paper/corpus_expansion/selected_corpus/tier2_n23_pilot_results.json"))["tier2_n23"]
 def tal(rs): return {k:sum(1 for r in rs if (r["margin"]>NOISE if k=="support" else r["margin"]<-NOISE if k=="invert" else abs(r["margin"])<=NOISE)) for k in ("support","noise","invert")}
 print("\nTier2 n", len(t2), "tally", tal(t2), "elevated [0.03,0.10):", sum(1 for r in t2 if 0.03<=r["contam"]<0.10), "max contam", max(r["contam"] for r in t2))
 print("Tier2 supported(sign):", sum(1 for r in t2 if r["margin"]>0))
 print("Tier2 by venue:", {v:(sum(1 for r in t2 if r["case"].startswith(v) and r["margin"]>0), sum(1 for r in t2 if r["case"].startswith(v))) for v in ("isea","leo","dc")})
-ctrl = json.load(open("/home/jhbae/art-paper/corpus_expansion/selected_corpus/control_corpus_results.json"))["control_n6"]
-print("Control tally", tal(ctrl))

@@ -30,7 +30,7 @@ These are out of scope by design. The benchmark exists to detect, in a specific 
 
 ## The "discriminant validity" check
 
-Running the benchmark on a corpus other than practice-based art papers (e.g., PLOS ONE empirical research) helps detect whether the layer-split signature is unique to practice-based writing or is a general property. If the signature appears in non-practice-based corpora too, the signature is a property of the layer definitions, not of practice-based research per se. (The companion paper reports this for a small empirical-paper discriminant-validity sample; the signature does appear but with high contamination, distinguishing the corpora at the contamination axis.)
+Running the benchmark on a corpus other than practice-based art papers (e.g., empirical science) can help detect whether a layer-split signature is unique to practice-based writing or is a general property of the layer definitions. The Digital Creativity companion manuscript does not report a non-art control sample.
 
 ## The "clean control" check
 

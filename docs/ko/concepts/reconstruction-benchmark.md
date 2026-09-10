@@ -30,7 +30,7 @@ Reconstruction benchmark는 플러그인의 동반 paper가 도입하는 평가 
 
 ## "Discriminant validity" 검증
 
-실천 기반 예술 paper가 아닌 corpus (예: PLOS ONE 경험적 연구)에 benchmark 실행 → layer-split signature가 실천 기반 글쓰기에 unique한지 일반 속성인지 감지. signature가 비실천-기반 corpus에서도 나타나면, signature는 layer 정의의 속성이지 실천 기반 연구의 속성 아님. (동반 paper가 소규모 empirical-paper discriminant-validity sample에서 보고; signature는 나타나지만 contamination이 높음 — contamination 축에서 corpus 구분됨.)
+실천 기반 예술 paper가 아닌 corpus (예: 경험적 과학 논문)에 benchmark를 돌리면 layer-split signature가 실천 기반 글쓰기에 unique한지, layer 정의의 일반 속성인지 감지하는 데 도움이 된다. Digital Creativity 동반 원고는 비예술 대조군을 보고하지 않는다.
 
 ## "Clean control" 검증
 
